@@ -1,0 +1,9 @@
+/* mainBanner */
+#mainBanner {
+    height: 400px;
+    /* background-image: url(''); */
+    background-color: #a9a9a9; /* 이미지 대체용(임시) */
+}
+
+.contents-box { padding-left: 60px; }
+.contents-tit { color: white; font-size: 40px; }

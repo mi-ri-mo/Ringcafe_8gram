@@ -1,16 +1,9 @@
 #mainBanner {
-    width: auto;
     height: 100vh;
-    justify-content: center;
-    display: flex;
-    flex-flow: column;
-    background-size: cover;
-    background-repeat: no-repeat;
     /* background-image: url(''); */
     background-color: #EBEBEB; /* 이미지 대체용(임시) */
 }
 
-.contents { width: 1180px; margin: 0 auto; }
 .contents-box { padding-left: 197px; }
 .contents-tit { color: white; font-size: 53.74px; margin-bottom: 58px; }
 
