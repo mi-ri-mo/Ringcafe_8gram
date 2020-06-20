@@ -1,0 +1,12 @@
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav>ul { text-align: center; margin-top: 34px; }
+
+nav>ul>li { display: inline-block; margin-right: 55px; font-size: 16px; }
+
+nav>ul>li:last-child { margin-right: 0; }
