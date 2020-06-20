@@ -5,5 +5,30 @@
     background-color: #a9a9a9; /* 이미지 대체용(임시) */
 }
 
-.contents-box { padding-left: 60px; }
-.contents-tit { color: white; font-size: 40px; }
+#mainBanner>.contents>.contents-box { padding-left: 60px; }
+#mainBanner>.contents>.contents-box>.contents-tit { color: white; font-size: 40px; }
+
+/* 오시는 길 container */
+.container { margin-bottom: 190px; }
+.container>.contents { padding-top: 133px; position: relative; }
+.container>.contents>.contents-tit>h2 { font-size: 30px; text-align: center; font-weight: bold; z-index: 1; position: absolute; left: 50%; transform:translateX(-50%); }
+.container>.contents>.contents-tit>hr { border: 0px; width: 162.8px; height: 35.88px; background-color: #D7D7D7; z-index: 0; position: absolute; left: 50%; transform:translateX(-50%); margin-top: 21.5px; }
+
+/* 오시는 길 contents-detail(위치, 이용시간, 연락처) */
+.container>.contents>.contents-detail { margin-top: 90px; }
+
+.list-location, .list-info, .list-tel { margin-left: 200px; font-size: 16px; display: inline-block; width: 100%; }
+.list-location>dt, .list-info>dt, .list-tel>dt { float:left; }
+
+.list-location>dd>span:first-child { margin-bottom: 17px; }
+.list-tel>dd>span:first-child { margin-right: 40px;}
+.list-tel>dd>span:last-child { margin-left: 40px;}
+.list-location>dd>span { display: block; }
+.list-location>dd { margin-left: 135px; }
+.list-info>dd { margin-left: 135px; }
+.list-tel>dd { margin-left: 135px; }
+
+.container>.contents>.contents-detail>hr { border: 0px; height: 1px; background-color: #D7D7D7; margin-top: 31.5px; margin-bottom: 31.5px; }
+
+/* 오시는 길 contents-box(지도) */
+.container>.contents>.contents-box { height: 409px;  background-color: #f7f7f7; margin-top: 64.5px; }
