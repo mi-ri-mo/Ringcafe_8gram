@@ -1,12 +1,8 @@
 /* mainBanner */
-#mainBanner {
-    height: 400px;
+#subBanner {
     /* background-image: url(''); */
     background-color: #a9a9a9; /* 이미지 대체용(임시) */
 }
-
-#mainBanner>.contents>.contents-box { padding-left: 60px; }
-#mainBanner>.contents>.contents-box>.contents-tit { color: white; font-size: 40px; }
 
 /* container */
 .container { margin-bottom: 190px; }
