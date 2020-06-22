@@ -15,3 +15,37 @@
     color: white;
     background-color: rgba(0,0,0,0);
 }
+
+#order { background-color: #FAFAF8; height: 100vh;}
+
+#publicity { height: 539px; background-color: grey;}
+
+#map { height: 100vh; background-color: #FAFAF8;}
+
+#footer { height: 297px; background-color: #272726;}
+
+.order-text { text-align: center; position: absolute; left: 70%; transform:translateX(-50%); padding-top: 100px;}
+
+.publicity-text { text-align: center;  position: absolute; left: 50%; transform:translateX(-50%); padding-top: 250px;}
+
+.text { 
+    text-align: center; 
+    position: absolute; 
+    left: 50%; 
+    transform:translateX(-50%); 
+    padding-top: 100px;
+}
+
+.img-contents { margin: 0 auto;}
+.contents-img{ display: inline-block;  margin-right: 30px; transform:translateX(70%); transform:translateY(120%); height: 200px; width: 300px; background-color: grey;}
+.contents-img1{ display: inline-block; margin-right: 30px;  transform:translateX(40%); transform:translateY(120%); height: 200px; width: 300px; background-color: grey;}
+.contents-img2{ display: inline-block; margin: 0 auto; transform:translateX(10%); transform:translateY(120%); height: 200px; width: 300px; background-color: grey;}
+/* js 적용해서 이미지 x축으로 이어 배치 */
+
+.map-text {  margin: 0 auto; position: relative; top: 120px; left: 40%; display: inline-block;  transform:translateX(70%); transform:translateY(120%); }
+.map-img  { margin: 0 auto; transform:translateX(70%); transform:translateY(80%); height: 300px; width: 1000px; background-color: grey; }
+
+.top { margin: 0 auto; position: relative; top: 300px; left: 50%; transform:translateX(90%); transform:translateY(10%); }
+
+.site-footer { background-color: rgb(37, 37, 37);color: rgb(255, 255, 255); height: 200px; }
+
