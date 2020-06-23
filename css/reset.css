@@ -38,6 +38,6 @@ img, fieldset {border: 0;}
 }
 
 #subBanner>.contents>.contents-box { padding-left: 60px; }
-#subBanner>.contents>.contents-box>.contents-tit { color: white; font-size: 40px; }
+#subBanner>.contents>.contents-box>.contents-tit { color: white; font-size: 40px; font-weight: bold; }
 
 .contents { width: 1180px; margin: 0 auto; }
