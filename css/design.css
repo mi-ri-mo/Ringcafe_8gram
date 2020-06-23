@@ -3,6 +3,8 @@
     /* background-image: url(''); */
     background-color: #a9a9a9; /* 이미지 대체용(임시) */
 }
+/* container */
+.container { padding-bottom: 220px; }
 
 /* 반지, 팔찌 버튼 공통 속성 */
 .container>.contents:first-child { padding-top: 135px; text-align: center; padding-bottom: 113.5px; }
@@ -13,6 +15,7 @@
 .container>.contents>.contents-detail>span { font-size: 16px; }
 
 .container>.designView { width: 1210px; margin: 0 auto; text-align: center;}
+.container>.designView>.designList { margin: 0; }
 .container>.designView>ul>li { display: inline-block; padding: 10px; margin-bottom: 45px; }
 .container>.designView>ul>li>dl>dt { padding-bottom: 10px; }
 .container>.designView>ul>li>dl>dd { margin-left: 5px; text-align: left; }

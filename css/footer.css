@@ -1,0 +1,2 @@
+.site-footer { background-color: #555555; color: rgb(255, 255, 255); height: 280px; }
+.site-footer>.container { height: inherit; }

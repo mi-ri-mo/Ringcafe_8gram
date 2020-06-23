@@ -23,6 +23,8 @@ ul, li, ol, dl, menu {list-style-type: none;}
 img, fieldset {border: 0;}
 
 /* 레이아웃 초기화 */
+body { overflow-x: hidden; } /* 가로스크롤바 없애기 */ 
+
 #mainBanner, #subBanner {
     width: auto;
     justify-content: center;
