@@ -13,7 +13,7 @@
 .container>.contents>.contents-detail>span { font-size: 16px; }
 
 .container>.designView { width: 1210px; margin: 0 auto; text-align: center;}
-.container>.designView>ul>li { display: inline-block; padding: 10px; margin-bottom: 46px; }
-.container>.designView>ul>li>dl>.image { padding-bottom: 10px; }
-.container>.designView>ul>li>dl>.descriptions { margin-left: 5px; text-align: left; }
-.container>.designView>ul>li>dl>.descriptions>span { font-size: 16px; }
+.container>.designView>ul>li { display: inline-block; padding: 10px; margin-bottom: 45px; }
+.container>.designView>ul>li>dl>dt { padding-bottom: 10px; }
+.container>.designView>ul>li>dl>dd { margin-left: 5px; text-align: left; }
+.container>.designView>ul>li>dl>dd>span { font-size: 16px; }
