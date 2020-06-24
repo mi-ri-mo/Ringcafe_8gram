@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/nav.css">
+    <link rel="stylesheet" type="text/css" href="css/footer.css">
+    <link rel="stylesheet" type="text/css" href="css/design.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Javascript -->
+    <script src="js/design.js"></script>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <title>반지카페 8그램</title>
+</head>
+<body onload="onChangeBtn('ring');">
+    <div id="wrapper">
+        <div id="header">
+            <nav>
+                <ul>
+                    <li><a href="about.html">반지카페 8그램 소개</a></li>
+                    <li><a href="design.html">반지 팔찌 디자인</a></li>
+                    <li><a href="#">소통하기</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="subBanner">
+            <div class="contents">
+                <div class="contents-box">
+                    <h1 class="contents-tit">우리가 엮여서<br/>인연이 된 곳 반지카페 8그램</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="contents">
+                <input type="button" value="반지" class="selectBtn" id="ring" onclick="onChangeBtn('ring')">
+                <input type="button" value="팔찌" class="selectBtn" id="bracelet" onclick="onChangeBtn('bracelet')">
+            </div>
+            <div class="contents">
+                <div class="contents-detail">
+                    <span>*가장 인기있는 반지 순입니다.</span>
+                </div>
+            </div>
+            <div class="designView">
+            </div>
+        </div>
+        <!-- footer -->
+        <footer class="site-footer">
+            <div class="contetns">
+
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>

@@ -23,7 +23,9 @@ ul, li, ol, dl, menu {list-style-type: none;}
 img, fieldset {border: 0;}
 
 /* 레이아웃 초기화 */
-#mainBanner {
+body { overflow-x: hidden; } /* 가로스크롤바 없애기 */ 
+
+#mainBanner, #subBanner {
     width: auto;
     justify-content: center;
     display: flex;
@@ -31,5 +33,13 @@ img, fieldset {border: 0;}
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+/* subBanner */
+#subBanner {
+    height: 400px;
+}
+
+#subBanner>.contents>.contents-box { padding-left: 60px; }
+#subBanner>.contents>.contents-box>.contents-tit { color: white; font-size: 40px; font-weight: bold; }
 
 .contents { width: 1180px; margin: 0 auto; }

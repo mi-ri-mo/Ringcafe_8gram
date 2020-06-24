@@ -1,33 +1,31 @@
 /* mainBanner */
-#mainBanner {
-    height: 400px;
+#subBanner {
     /* background-image: url(''); */
     background-color: #a9a9a9; /* 이미지 대체용(임시) */
 }
 
-#mainBanner>.contents>.contents-box { padding-left: 60px; }
-#mainBanner>.contents>.contents-box>.contents-tit { color: white; font-size: 40px; }
-
-/* container */
-.container { margin-bottom: 190px; }
-.container>.contents { padding-top: 131.8px; position: relative; }
+/* containerBox */
+.containerBox { margin-bottom: 190px; }
+.containerBox>.contents { padding-top: 131.8px; position: relative; }
 
 .text { font-size: 30px; text-align: center; font-weight: bold; z-index: 1; position: absolute; left: 50%; transform:translateX(-50%); }
 .line { border: 0px; width: 162.8px; height: 35.88px; background-color: #D7D7D7; z-index: 0; position: absolute; left: 50%; transform:translateX(-50%); margin-top: 21.5px; }
 
 /* 가격 contents */
 .innerContainer { width: 100%; height: 409px; background-color: #f7f7f7; margin-top: 104px; }
-.container>.innerContainer>.contents { text-align: center; padding-top: 55px; }
-.container>.innerContainer>.contents>.contents-intro { display: inline-block; }
-.container>.innerContainer>.contents>.contents-intro>.contents-intro-img { display: inline-block; width: 160px; height: 160px; background-color: #d6d6d6; /*background-img: url();*/ }
-.container>.innerContainer>.contents>.contents-intro>.contents-intro-text { font-size: 21px; margin-top: 30px; }
-.container>.innerContainer>.contents>.contents-intro>.contents-intro-price { font-size: 30px; font-weight: bold; margin-top: 25px; }
-.container>.innerContainer>.contents>.contents-intro>.contents-intro-line { width: 0px; height: 298px; background-color: #564E4B; margin-left: 175px; margin-right: 175px; }
-
+.containerBox>.innerContainer>.contents { text-align: center; padding-top: 23px; }
+.containerBox>.innerContainer>.contents>.contents-intro { display: inline-block; }
+.containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img { display: inline-block; width: 160px; height: 160px; background-color: #d6d6d6; /*background-img: url();*/ }
+.containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-text { font-size: 21px; margin-top: 30px; }
+.containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-price { font-size: 30px; font-weight: bold; margin-top: 21px; }
+.containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-line { width: 1px; height: 297px; background-color: #564E4B; margin-left: 164.5px; margin-right: 164.5px; }
+.containerBox>.innerContainer>.contents>.contents-intro:first-child, .containerBox>.innerContainer>.contents>.contents-intro:last-child { width: 230px; height: 300px; }
 
 /* 오시는 길 contents-detail(위치, 이용시간, 연락처) */
-.container>.contents>.contents-detail { margin-top: 140px; }
+#wrapper>.container { padding-bottom: 220px; }
+.container>.contents>.contents-detail { padding-top: 140px; }
 .contents-text { margin-top: 44px; text-align: center; font-size: 16px; }
+.contents-text>.detail-text { line-height: 35px; }
 
 .list-location, .list-info, .list-tel { margin-left: 200px; font-size: 16px; display: inline-block; width: 100%; }
 .list-location>dt, .list-info>dt, .list-tel>dt { float:left; }
