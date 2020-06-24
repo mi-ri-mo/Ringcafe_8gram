@@ -1,9 +1,5 @@
-#header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-}
+/* 고정 */
+#header { position: fixed; top: 0; left: 0; right: 0;}
 
 nav>ul { text-align: center; margin-top: 34px; margin-bottom: 34px; }
 
