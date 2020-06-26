@@ -1,3 +1,4 @@
+
 #mainBanner {
     height: 100vh;
     /* background-image: url(''); */
@@ -40,10 +41,40 @@
 .contents-img{ display: inline-block;  margin-right: 30px; transform:translateX(70%); transform:translateY(120%); height: 200px; width: 300px; background-color: grey;}
 .contents-img1{ display: inline-block; margin-right: 30px;  transform:translateX(40%); transform:translateY(120%); height: 200px; width: 300px; background-color: grey;}
 .contents-img2{ display: inline-block; margin: 0 auto; transform:translateX(10%); transform:translateY(120%); height: 200px; width: 300px; background-color: grey;}
-/* js 적용해서 이미지 x축으로 이어 배치 */
 
 .map-text {  margin: 0 auto; position: relative; top: 120px; left: 40%; display: inline-block;  transform:translateX(70%); transform:translateY(120%); }
 .map-img  { margin: 0 auto; transform:translateX(70%); transform:translateY(80%); height: 300px; width: 1000px; background-color: grey; }
 
 .top { margin: 0 auto; position: relative; top: 300px; left: 50%; transform:translateX(90%); transform:translateY(10%); }
+
+.slide-ul {
+    position: relative;
+    top: 300px;
+    display: block;
+    white-space: nowrap;
+    height: 300px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 0;
+    font-size: 0;
+    overflow: hidden;
+}
+  
+.slide-li {
+    box-sizing: border-box;
+    height: 250px;
+    width: 300px;
+    display: inline-block;
+    border: 1px solid;
+    margin-right: 20px;
+}
+  
+.slide-li:nth-child(4n) { background: #B4B4B4; }
+.slide-li:nth-child(4n + 1) {background: #2D2D2D;}
+.slide-li:nth-child(4n + 2) { background: #857D68;}
+.slide-li:nth-child(4n + 3) { background: #F5F5F5;}
+  
+  
+  
+  
 
