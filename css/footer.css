@@ -1,2 +1,10 @@
-.site-footer { background-color: #555555; color: rgb(255, 255, 255); height: 280px; }
+.site-footer { background-color: #564e4b; color: rgb(255, 255, 255); height: 280px; }
 .site-footer>.container { height: inherit; }
+
+.footer-text1{ position: relative; top: 100px; left: 150px; font-weight: bolder;}
+
+.footer-text2{ position: relative; top: 90px; left: 250px; line-height: 50px;}
+
+.footer-text3{ position: relative; top: 90px; left: 350px; line-height: 50px;}
+
+.footer-text4{ position: relative; top: 100px; left: 450px; display: inline; list-style-type: none;  }
