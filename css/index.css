@@ -17,7 +17,9 @@
     background-color: rgba(0,0,0,0);
 }
 
-#order { background-color: #FAFAF8; height: 100vh;}
+#order { background-color: #FAFAF8; height: 100vh; }
+
+/* .img-contents { overflow-x: scroll; } */
 
 #publicity { height: 539px; background-color: grey;}
 
@@ -61,6 +63,7 @@
 }
   
 .slide-li {
+    
     box-sizing: border-box;
     height: 250px;
     width: 300px;
