@@ -1,5 +1,5 @@
 /* 고정 */
-#header { position: fixed; top: 0; left: 0; right: 0;}
+.header { position: fixed; top: 0; left: 0; right: 0;}
 
 nav>ul { text-align: center; margin-top: 34px; margin-bottom: 34px; }
 
@@ -7,7 +7,5 @@ nav>ul>li { display: inline-block; margin-right: 55px; font-size: 16px; }
 
 nav>ul>li:last-child { margin-right: 0; }
 
-/* nav { display: flex; justify-content: center; align-items: center; padding: 1em; height: 55px; background-color: #1A1B36;}
-nav ul { flex: 1; display: flex; justify-content: flex-end; align-items: center; margin: 0; } 
-nav ul li { padding: 10px; margin: 0; } 
-nav ul li a { padding: 1em; font-size: 0.85em; display: flex; align-items: flex-end; text-decoration: none;} */
+
+
