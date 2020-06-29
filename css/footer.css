@@ -7,4 +7,6 @@
 
 .footer-text3{ position: relative; top: 90px; left: 350px; line-height: 50px;}
 
-.footer-text4{ position: relative; top: 100px; left: 450px; display: inline; list-style-type: none;  }
+.li1{ position: relative; top: 100px; left: 450px; display: inline; list-style-type: none; padding-right: 10px ;}
+
+.li2{ position: relative; top: 100px; left: 450px; display: inline; list-style-type: none;}
