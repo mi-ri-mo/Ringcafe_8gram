@@ -11,11 +11,11 @@
 .container>.contents>.selectBtn { width: 290px; height: 75px; font-size: 24px; font-weight: bold; border: 0; }
 
 /* 디자인 소개 */
-.container>.contents>.contents-detail { margin-bottom: 7.5px; }
+.container>.contents>.contents-detail { margin-bottom: 7.5px; padding-left: 10px; }
 .container>.contents>.contents-detail>span { font-size: 16px; }
 
-.container>.designView { width: 1210px; margin: 0 auto; text-align: center;}
-.container>.designView>.designList { margin: 0; }
+.container>.designView { width: 1210px; margin: 0; }
+.container>.designView>.designList { text-align: center; margin: 0 auto; }
 .container>.designView>ul>li { display: inline-block; padding: 10px; margin-bottom: 45px; }
 .container>.designView>ul>li>dl>dt { padding-bottom: 10px; }
 .container>.designView>ul>li>dl>dd { margin-left: 5px; text-align: left; }
