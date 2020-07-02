@@ -63,7 +63,6 @@
 }
   
 .slide-li {
-    
     box-sizing: border-box;
     height: 250px;
     width: 300px;
@@ -78,4 +77,6 @@
 .slide-li:nth-child(4n + 3) { background: #F5F5F5;}
   
 section { box-sizing:border-box; }
+
+.down-arrow { position: absolute; left: 700px; top: 650px; }
 
