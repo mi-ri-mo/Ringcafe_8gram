@@ -41,4 +41,4 @@
 .container>.contents>.contents-detail>hr { border: 0px; height: 1px; background-color: #D7D7D7; margin-top: 31.5px; margin-bottom: 31.5px; }
 
 /* 오시는 길 contents-box(지도) */
-.container>.contents>.contents-box { height: 409px;  background-color: #f7f7f7; margin-top: 64.5px; }
+.container>.contents>#map { height: 409px;   margin-top: 64.5px; }
