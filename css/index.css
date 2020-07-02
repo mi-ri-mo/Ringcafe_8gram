@@ -23,7 +23,7 @@
 
 #publicity { height: 539px; background-color: grey;}
 
-#map { height: 100vh; background-color: #FAFAF8;}
+#map-setion { height: 100vh; background-color: #FAFAF8;}
 
 #footer { height: 297px; background-color: #272726;}
 
@@ -45,7 +45,7 @@
 .contents-img2{ display: inline-block; margin: 0 auto; transform:translateX(10%); transform:translateY(120%); height: 200px; width: 300px; background-color: grey;}
 
 .map-text {  margin: 0 auto; position: relative; top: 120px; left: 40%; display: inline-block;  transform:translateX(70%); transform:translateY(120%); }
-.map-img  { margin: 0 auto; transform:translateX(70%); transform:translateY(80%); height: 300px; width: 1000px; background-color: grey; }
+#map{ margin: 0 auto; transform:translateX(70%); transform:translateY(80%); height: 300px; width: 1000px;}
 
 .top { margin: 0 auto; position: relative; top: 300px; left: 50%; transform:translateX(90%); transform:translateY(10%); }
 

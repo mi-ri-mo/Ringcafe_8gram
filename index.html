@@ -66,7 +66,7 @@
             </div>
         </div>
 
-        <div id="map">
+        <div id="map-setion">
             <div class="contents">
                 <div class="contents-list">
                     <h2 class="text">오시는길</h2>
@@ -74,7 +74,8 @@
                     <span>서울 강남구 역삼동 813-16 혜인빌딩 5층(E/V)</span><br>
                     <span>9호선 신논현역, 2호선 강남역 5분 거리</span>
                 </div>
-                <div class="map-img"></div>
+                <div id="map"></div>
+
                         <div class="top">
                         <a href="#mainBanner">up</a>
                         </div>
@@ -121,5 +122,10 @@
     </div>
     <!-- Javascript -->
     <script type="text/javascript" src="js/index.js"></script> 
+    <script src="js/map.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvs29ajFB8vgIjV0xN4e-hvD1ol24vd50&callback=initMap">
+    </script>
+
 </body>
 </html>
