@@ -15,16 +15,12 @@ $(document).ready(function(){
 // sild 효과
 let diff = 0;
 let ticking = false;
-
 const wheelEvent = 'onwheel' in document.createElement("div") ? 'wheel' : 'mousewheel';
-
 // querySelector
 const list = document.querySelector('.slide-ul');
-
 function doSomething(diff) {
   list.scrollLeft += (diff);
 }
-
 list.addEventListener('wheel', function(e) {
   diff = e.deltaY;
   if (!ticking) {
@@ -35,6 +31,3 @@ list.addEventListener('wheel', function(e) {
   }
   ticking = true;
 }, { passive: true });
-
-
-
