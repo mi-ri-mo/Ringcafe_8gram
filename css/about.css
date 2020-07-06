@@ -15,9 +15,12 @@
 .innerContainer { width: 100%; height: 409px; background-color: #f7f7f7; margin-top: 104px; }
 .containerBox>.innerContainer>.contents { text-align: center; padding-top: 23px; }
 .containerBox>.innerContainer>.contents>.contents-intro { display: inline-block; }
-.containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img { display: inline-block; width: 160px; height: 160px; background-color: #d6d6d6; /*background-img: url();*/ }
-.containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-text { font-size: 21px; margin-top: 30px; }
-.containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-price { font-size: 30px; font-weight: bold; margin-top: 21px; }
+.containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-ring { display: inline-block; width: 160px; height: 160px; background-color: #d6d6d6; /*background-img: url();*/ }
+.containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-bracelet { display: inline-block; width: 160px; height: 160px; background-color: #d6d6d6; /*background-img: url();*/ }
+.containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-text-ring { font-size: 21px; margin-top: 30px; }
+.containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-text-bracelet { font-size: 21px; margin-top: 30px; }
+.containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-price-ring { font-size: 30px; font-weight: bold; margin-top: 21px; }
+.containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-price-bracelet { font-size: 30px; font-weight: bold; margin-top: 21px; }
 .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-line { width: 1px; height: 297px; background-color: #564E4B; margin-left: 164.5px; margin-right: 164.5px; }
 .containerBox>.innerContainer>.contents>.contents-intro:first-child, .containerBox>.innerContainer>.contents>.contents-intro:last-child { width: 230px; height: 300px; }
 
@@ -42,3 +45,71 @@
 
 /* 오시는 길 contents-box(지도) */
 .container>.contents>#map { height: 409px;   margin-top: 64.5px; }
+
+
+
+@media screen and (max-device-width: 812px) {
+
+    .line { display: none;}
+
+    #subBanner { height: 149px; }
+
+    #subBanner .contents .contents-box .contents-tit { /*반지 문구*/
+        color: black;
+        font-size: 21px;
+        position: relative;
+        right:46px;
+        bottom: -25px;
+    }
+    
+    h2.text { margin: 0 auto; position: relative; text-align: center; top: -10px; left: 170px; font-size: 20px; } /* 가격 문구 */
+
+    .innerContainer { display: flex; background-color: #00ff0000; position: relative; right:139px; top: -80px;}  /* .innerContainer flex*/
+    
+    .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-text-ring { font-size: 16px;} /* 반지 크기 text*/
+
+    .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-ring { width: 195px; height: 194px;} /* 반지 이미지 */
+
+    .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-price-ring { font-size: 26px;} /* 반지 가격 text */
+
+    .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-line{ width: 300px; height: 1px; position: relative; top: 90px;} /* 선*/
+
+    .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-bracelet { /* 팔찌 이미지 */
+       
+        width: 195px;
+        height: 194px;
+        position: relative; 
+        top:200px;
+    
+    } 
+
+    .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-text-bracelet { /* 팔찌 크기 text*/
+        
+        font-size: 16px;
+        position: relative;
+        top: 230px;
+    
+    } 
+
+    .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-price-bracelet { /* 팔찌 가격 text */
+
+        font-size: 26px;
+        position: relative;
+        top: 241px;
+    }
+
+    
+
+    .contents-text>.detail-text { position: relative; text-align: center; bottom: -500px; font-size: 16px;} /* 탄생석 text */
+
+    .container>.contents>.contents-tit>.text { position: relative; top: 400px; left: 170px;} /* 오시는길 text*/
+
+    .container>.contents>.contents-detail { position: relative; bottom: -330px; right: 200px; }
+
+    
+
+    #map {  position: relative; top: 350px; right: 20px; width: 375px; height: 499px;} /*map*/
+
+    .site-footer { height: 337px; position: relative; bottom: -300px;} /*footer 위치 잡기*/
+
+}
