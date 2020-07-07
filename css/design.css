@@ -23,7 +23,6 @@
 
 @media screen and (max-device-width: 812px) {
     .container { padding-bottom: 137px; }
-    .contents { width: 100%; }
     #subBanner { height: 149px; }
     #subBanner>.contents>.contents-box { padding-left: 23px; padding-top: 52px; }
     #subBanner>.contents>.contents-box>.contents-tit { color: black; font-size: 21px; }
@@ -36,5 +35,4 @@
     .container>.designView>ul>li { margin-bottom: 26px; padding: 7.5px; }
     .container>.designView>ul>li:last-child { margin-bottom: 26px; }
     .container>.designView>ul>li>dl>dt>img { width: 150px; height: 150px; }
-
 }

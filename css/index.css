@@ -6,8 +6,6 @@
     position: relative;
 }
 
-.contents { width: 100%; }
-
 .contents-box { padding-left: 197px; }
 .contents-box>.contents-tit { color: white; font-size: 53.74px; margin-bottom: 58px; }
 
