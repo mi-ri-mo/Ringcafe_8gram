@@ -6,7 +6,7 @@
     position: relative;
 }
 
-#mainBanner>.contents>.contents-box { padding-left: 197px; }
+#mainBanner>.contents>.contents-box { padding-left: 500px; }
 .contents-box>.contents-tit { color: white; font-size: 53.74px; margin-bottom: 58px; }
 
 .reserveBtn { 

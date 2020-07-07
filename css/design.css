@@ -3,6 +3,9 @@
     /* background-image: url(''); */
     background-color: #a9a9a9; /* 이미지 대체용(임시) */
 }
+
+#subBanner>.contents>.contents-box {}
+
 /* container */
 .container { padding-bottom: 220px; }
 

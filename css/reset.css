@@ -40,7 +40,7 @@ body { overflow-x: hidden; } /* 가로스크롤바 없애기 */
     margin-top: 78px;
 }
 
-#subBanner>.contents>.contents-box { padding-left: 60px; }
+#subBanner>.contents>.contents-box { padding-left: 425px; }
 #subBanner>.contents>.contents-box>.contents-tit { color: white; font-size: 40px; font-weight: bold; }
 
 .contents { width: 100%; margin: 0 auto; }
