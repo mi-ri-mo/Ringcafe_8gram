@@ -47,7 +47,7 @@
 .map-text {  margin: 0 auto; position: relative; top: 120px; left: 40%; display: inline-block;  transform:translateX(70%); transform:translateY(120%); }
 #map{ margin: 0 auto; transform:translateX(70%); transform:translateY(80%); height: 300px; width: 1000px;}
 
-.top { margin: 0 auto; position: relative; top: 300px; left: 50%; transform:translateX(90%); transform:translateY(10%); }
+.top { margin: 0 auto; position: relative; top: 500px; left: 50%; transform:translateX(90%); transform:translateY(10%); }
 
 .slide-ul {
     position: relative;
@@ -78,4 +78,4 @@
   
 section { box-sizing:border-box; }
 
-.down-arrow { position: absolute; left: 700px; top: 650px; }
+.down-arrow { position: absolute; right: 900px; top: 850px; }
