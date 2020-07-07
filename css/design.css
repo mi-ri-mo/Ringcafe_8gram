@@ -26,7 +26,7 @@
 
 @media screen and (max-device-width: 812px) {
     .container { padding-bottom: 137px; }
-    #subBanner { height: 149px; }
+    #subBanner { height: 149px; margin: 0; }
     #subBanner>.contents>.contents-box { padding-left: 23px; padding-top: 52px; }
     #subBanner>.contents>.contents-box>.contents-tit { color: black; font-size: 21px; }
 
