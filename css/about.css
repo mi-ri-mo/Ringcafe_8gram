@@ -60,13 +60,13 @@
         font-weight: normal;
         font-stretch: normal;
         position: relative;
-        right:46px;
+        right:30px;
         bottom: -25px;
     }
     
-    h2.text { margin: 0 auto; position: relative; text-align: center; top: -10px; left: 150px; font-size: 20px; } /* 가격 문구 */
+    h2.text { margin: 0 auto; position: relative; text-align: center; top: -10px; left: 180px; font-size: 20px; } /* 가격 문구 */
 
-    .innerContainer { display: flex; background-color: #00ff0000; position: relative; right:160px; top: -80px;}  /* .innerContainer flex*/
+    .innerContainer { display: flex; background-color: #00ff0000; position: relative; right:130px; top: -80px;}  /* .innerContainer flex*/
     
     .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-text-ring { font-size: 16px;} /* 반지 크기 text*/
 
@@ -97,15 +97,15 @@
 
     
 
-    .contents-text>.detail-text { position: relative; text-align: center; bottom: -500px; right:37px; font-size: 12px;} /* 탄생석 text */
+    .contents-text>.detail-text { position: relative; text-align: center; bottom: -500px; left:-10px; font-size: 12px;} /* 탄생석 text */
 
-    .container>.contents>.contents-tit>.text { position: relative; top: 420px; left: 140px;} /* 오시는길 text*/
+    .container>.contents>.contents-tit>.text { position: relative; top: 420px; left: 170px;} /* 오시는길 text*/
 
     /* 위치 소개 배치 맞추기 */
 
-    .container>.contents>.contents-detail { position: relative; bottom: -330px; right: 200px; }
+    .container>.contents>.contents-detail { position: relative; bottom: -330px; right: 170px; }
     
-    .location { font-size: 14px; position: relative; left: 20px; }
+    .location { font-size: 14px; position: relative; left: 25px; }
     .location-1{ font-size: 14px; position: relative; right: 40px; }
 
     .time { font-size: 14px; position: relative; left: 20px; }
@@ -117,18 +117,21 @@
     .phone-number-2 { display: none;}
     .phone-number-3 { font-size: 14px; position: relative; right: 205px; top:40px; }
 
-    #map {  position: relative; top: 350px; right: 20px; width: 375px; height: 499px;} /*map*/
+
+    /*map*/
+
+    #map {  position: relative; top: 350px; right: 15px; width: 375px; height: 499px;} 
 
     .site-footer { height: 337px; position: relative; bottom: -300px;} /*footer 위치 잡기*/
-
+    
     /* footer text 잡기 */
-
+    
     .company-name { display: none;}
 
-    .company-number { font-size: 13px; position: relative; right: 208px; word-spacing: 50px;}
-    .report-number { font-size: 13px; position: relative; right: 208px; top:-5px; word-spacing: 8px; }
-    .call-number { font-size: 13px; position: relative; right: 528px; top:90px; word-spacing: 8px;}
-    .information { font-size: 13px; position: relative; right: 528px; top: 80px;}
-    .social-icons { position: relative; right: 798px; top: 180px;} 
+    .company-number { font-size: 13px; position: relative; right: 168px; word-spacing: 50px;}
+    .report-number { font-size: 13px; position: relative; right: 168px; top:-5px; word-spacing: 8px; }
+    .call-number { font-size: 13px; position: relative; right: 488px; top:90px; word-spacing: 8px;}
+    .information { font-size: 13px; position: relative; right: 488px; top: 80px;}
+    .social-icons { position: relative; right: 758px; top: 180px;} 
 
 }
