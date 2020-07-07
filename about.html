@@ -23,13 +23,34 @@
 <body>
     <div id="wrapper">
         <div class="header">
-            <nav>
+            <nav id="web-nav">
                 <ul>
                     <li><a href="index.html">반지카페 8그램</a></li>
                     <li><a href="design.html">반지 팔찌 디자인</a></li>
                     <li><a href="about.html">가격 및 오시는길</a></li>
                 </ul>
             </nav>
+
+            <nav class="navbar navbar-expand-sm navbar-light" id="mobile-nav">
+                <a class="navbar-brand" href="#" style="visibility: hidden;">반지카페 8그램</a>
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="navbar-collapse collapse" id="navbarsExample03" style="">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="index.html">반지카페 8그램 소개</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="design.html".html">반지 팔찌 디자인</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html".html">가격 및 오시는길</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
         </div>
         <div id="subBanner">
             <div class="contents">
@@ -74,7 +95,8 @@
                 </div>
             </div>
             <div class="contents-text">
-                <span class="detail-text">탄생석 1개 5000원, 각인 1면 5000원입니다.<br>기타 자세한 문의는 아래 연락처로 전화 또는 문자바랍니다.</span>
+                <span class="detail-text" id="web-text">탄생석 1개 5000원, 각인 1면 5000원<br>기타 자세한 문의는 아래 연락처로 전화 or 문자바랍니다.</span>
+                <span class="detail-text" id="mobile-text">탄생석 1개 5000원, 각인 1면 5000원<br>기타 자세한 문의는 아래 연락처로<br> 전화 or 문자바랍니다.</span>
             </div>
         </div>
         <div class="container">

@@ -41,6 +41,7 @@
     .container>.designView>ul>li:last-child { margin-bottom: 26px; }
     .container>.designView>ul>li>dl>dt>img { width: 150px; height: 150px; }
 
+    /* nav */
     #mobile-nav { display: block; padding-top: 0px; padding-bottom: 0px; }
     .navbar-light .navbar-toggler { float: right; padding-right: 0; }
     #web-nav { display: none; }
