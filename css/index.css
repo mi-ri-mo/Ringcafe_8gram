@@ -3,10 +3,13 @@
     height: 100vh;
     /* background-image: url(''); */
     background-color: #EBEBEB; /* 이미지 대체용(임시) */
+    position: relative;
 }
 
+.contents { width: 100%; }
+
 .contents-box { padding-left: 197px; }
-.contents-tit { color: white; font-size: 53.74px; margin-bottom: 58px; }
+.contents-box>.contents-tit { color: white; font-size: 53.74px; margin-bottom: 58px; }
 
 .reserveBtn { 
     width: 113px; 
@@ -78,4 +81,11 @@
   
 section { box-sizing:border-box; }
 
-.down-arrow { position: absolute; right: 900px; top: 850px; }
+/* 내용 보기 */
+.down-btn { position: absolute; right: 900px; left: calc(50% - 25px); bottom: 10px; width: 50px; height: 50px; }
+.down-btn>img { width: 50px; background-color: rgba(0,0,0,0); }
+
+/* 우리 반지카페 8그램은 */
+.container>.contents { padding-top: 176px; padding-bottom: 148px; }
+.container>.contents>.contents-tit { font-size: 36px; text-align: center; padding-bottom: 68px; margin: 0; }
+.container>.contents>.contents-detail { font-size: 25px; text-align: center; }

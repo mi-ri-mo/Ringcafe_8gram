@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$(".down-arrow").click(function() {
+	$(".down-btn").click(function() {
 		$("body").animate({
 				scrollTop: 937
 		}, 500);
