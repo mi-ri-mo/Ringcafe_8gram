@@ -33,7 +33,7 @@
     .container>.contents>.contents-detail { margin-bottom: 2px; }
     .container>.contents>.contents-detail>span { font-size: 14px; }
     .container>.designView { width: 100%; }
-    .container>.designView>ul>li { margin-bottom: 26px; }
+    .container>.designView>ul>li { margin-bottom: 26px; padding: 7.5px; }
     .container>.designView>ul>li:last-child { margin-bottom: 26px; }
     .container>.designView>ul>li>dl>dt>img { width: 150px; height: 150px; }
 
