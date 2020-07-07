@@ -27,7 +27,7 @@
 #mobile-nav { display: none; }
 
 @media screen and (max-device-width: 812px) {
-    .container { margin-bottom: 137px; }
+    .container { padding-bottom: 137px; }
     #subBanner { height: 149px; margin-top: 40px; }
     #subBanner>.contents>.contents-box { padding-left: 23px; padding-top: 52px; }
     #subBanner>.contents>.contents-box>.contents-tit { color: black; font-size: 21px; }
@@ -38,7 +38,7 @@
     .container>.contents>.contents-detail>span { font-size: 14px; }
     .container>.designView { width: 100%; }
     .container>.designView>ul>li { margin-bottom: 26px; padding: 7.5px; }
-    .container>.designView>ul>li:last-child { margin-bottom: 26px; float: left; }
+    .container>.designView>ul>li:last-child { margin-bottom: 26px; }
     .container>.designView>ul>li>dl>dt>img { width: 150px; height: 150px; }
 
     #mobile-nav { display: block; padding-top: 0px; padding-bottom: 0px; }
