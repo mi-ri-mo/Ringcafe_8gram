@@ -6,7 +6,7 @@
     position: relative;
 }
 
-.contents-box { padding-left: 197px; }
+#mainBanner>.contents>.contents-box { padding-left: 197px; }
 .contents-box>.contents-tit { color: white; font-size: 53.74px; margin-bottom: 58px; }
 
 .reserveBtn { 
@@ -30,7 +30,7 @@
 
 .order-text { text-align: center; position: absolute; left: 70%; transform:translateX(-50%); padding-top: 100px;}
 
-.publicity-text { text-align: center;  position: absolute; left: 50%; transform:translateX(-50%); padding-top: 250px;}
+#publicity>.contents>.contents-box>.publicity-text { text-align: center; padding-top: 235.7px;}
 
 .text { 
     text-align: center; 

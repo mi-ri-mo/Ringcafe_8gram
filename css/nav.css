@@ -1,5 +1,5 @@
 /* 고정 */
-.header { position: fixed; top: 0; left: 0; right: 0; z-index :99999; background-color: #fff; transition: background-color 0.2s linear;}
+.header { position: fixed; top: 0; left: 0; right: 0; z-index :99999; background-color: #fff; transition: background-color 0.2s linear; }
 
 nav>ul { text-align: center; margin-top: 27.7px; margin-bottom: 26.3px; }
 
