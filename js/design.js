@@ -23,9 +23,9 @@ function onChangeBtn(value) {
 
 function onChangeDesign(value) {
     let ringImage = ['img/design-img/test.PNG', 'img/design-img/test.PNG', 'img/design-img/test.PNG', 'img/design-img/test.PNG', 'img/design-img/test.PNG', 'img/design-img/test.PNG', 'img/design-img/test.PNG', 'img/design-img/test.PNG', 'img/design-img/test.PNG'];
-    let ringDetail = ['제일 인기 있는 메탈 반지1','제일 인기 있는 메탈 반지2','제일 인기 있는 메탈 반지3','제일 인기 있는 메탈 반지4','제일 인기 있는 메탈 반지5','제일 인기 있는 메탈 반지6','제일 인기 있는 메탈 반지7','제일 인기 있는 메탈 반지8','제일 인기 있는 메탈 반지9'];
+    let ringDetail = ['인기 반지 1위','인기 반지 2위','인기 반지 3위','인기 반지 4위','인기 반지 5위','인기 반지 6위','인기 반지 7위','인기 반지 8위','인기 반지 9위'];
     let braceletImage = ['img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG'];
-    let braceletDetail = ['제일 인기 있는 팔찌1','제일 인기 있는 팔찌2','제일 인기 있는 팔찌3','제일 인기 있는 팔찌4','제일 인기 있는 팔찌5','제일 인기 있는 팔찌6','제일 인기 있는 팔찌7','제일 인기 있는 팔찌8','제일 인기 있는 팔찌9'];
+    let braceletDetail = ['인기 팔찌 1위','인기 팔찌 2위','인기 팔찌 3위','인기 팔찌 4위','인기 팔찌 5위','인기 팔찌 6위','인기 팔찌 7위','인기 팔찌 8위','인기 팔찌 9위'];
     let image = [];
     let detail=[];
 
