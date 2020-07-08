@@ -48,7 +48,7 @@
 #mobile-nav, #mobile-text { display: none; }
 
 /* banner text */
-#subBanner>.contents>.contents-box>.contents-tit { color: black; }
+#subBanner>.contents>.contents-box>.contents-tit { color: white; }
 
 .fab, .fas { color: white;}
 
@@ -59,7 +59,7 @@
 
     #subBanner { height: 149px; margin-top: 40px; background-image: url("../img/submain-mobile.png"); }
     #subBanner>.contents>.contents-box { padding-left: 23px; padding-top: 52px; }
-    #subBanner>.contents>.contents-box>.contents-tit { color: black; font-size: 21px; }
+    #subBanner>.contents>.contents-box>.contents-tit { color: white; font-size: 21px; }
     
     .containerBox { margin-bottom: 180px; }
     .containerBox>.contents { padding-top: 78px; }

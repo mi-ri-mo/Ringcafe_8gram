@@ -1,7 +1,7 @@
 
 #mainBanner {
     height: 100vh;
-    background-image: url("../img/main.jpg");
+    background-image: url("../img/main.png");
     /*background-color: #EBEBEB; /* 이미지 대체용(임시) */
     position: relative;
 }
@@ -13,8 +13,8 @@
     width: 113px; 
     height: 52px; 
     font-size: 16px; 
-    border: 1.5px solid black;
-    color: black;
+    border: 1.5px solid white;
+    color: white;
     background-color: rgba(0,0,0,0);
     font-weight: bold;
 }
@@ -101,8 +101,9 @@
 
 
 /* Banner Text */
-#mainBanner>.contents>.contents-box>.contents-tit { color: black; font-weight: bold; }
+#mainBanner>.contents>.contents-box>.contents-tit { color: white; font-weight: bold; }
 
+#intro { /*background-image: url("../img/index-img/text.png");*/ }
 
 @media screen and (max-device-width: 812px) {
     #mainBanner {padding-left: 38px; padding-right: 38px; background-image: url("../img/main_mobile.png");}

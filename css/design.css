@@ -25,7 +25,7 @@
 .container>.designView>ul>li>dl>dd>span { font-size: 16px; }
 
 /* banner text */
-#subBanner>.contents>.contents-box>.contents-tit { color: black; }
+#subBanner>.contents>.contents-box>.contents-tit { color: white; }
 
 #mobile-nav { display: none; }
 
