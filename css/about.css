@@ -47,6 +47,9 @@
 
 #mobile-nav, #mobile-text { display: none; }
 
+/* banner text */
+#subBanner>.contents>.contents-box>.contents-tit { color: black; }
+
 @media screen and (max-device-width: 812px) {
 
     .line { display: none;}

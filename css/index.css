@@ -13,8 +13,8 @@
     width: 113px; 
     height: 52px; 
     font-size: 16px; 
-    border: 2px solid white;
-    color: white;
+    border: 2px solid black;
+    color: black;
     background-color: rgba(0,0,0,0);
 }
 
@@ -89,15 +89,15 @@
 
 .img-box-hidden { visibility: hidden; }
 
+/* Banner Text */
+#mainBanner>.contents>.contents-box>.contents-tit { color: black; }
 
 
 @media screen and (max-device-width: 812px) {
     #mainBanner {padding-left: 38px; padding-right: 38px; background-image: url("../img/main_mobile.png");}
     #mainBanner>.contents>.contents-box { padding-left: 0px; text-align: center; }
     #mainBanner>.contents>.contents-box>.contents-tit-mobile { text-align: center; font-size: 20px; display: block; margin: 0; padding-bottom: 150px; }
-    #mainBanner>.contents>.contents-box>.contents-tit-mobile>span { font-size: 40px; }
-    #mainBanner>.contents>.contents-box>.contents-tit { display: none; }
-    
+    #mainBanner>.contents>.contents-box>.contents-tit-mobile>span { font-size: 40px; }    
 }
 
 
