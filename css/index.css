@@ -53,7 +53,7 @@
 .map-text { margin: 0 auto; text-align: center; margin-left: 40%; margin-top: 100px; padding:0; display: inline-block;  transform:translateX(70%); transform:translateY(120%); }
 #map{ margin: 0 auto; transform:translateX(70%); transform:translateY(45%); height: 300px; width: 1000px;}
 
-.top { margin: 0 auto; margin-top: 50px; transform:translateX(90%); transform:translateY(10%); }
+.top { text-align: center; margin-top: 230px;}
 
 
 /* 내용 보기 */
