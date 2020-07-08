@@ -7,6 +7,7 @@
 
 /* container */
 .container { padding-bottom: 220px; }
+.site-footer>.container { padding-bottom: 0px; }
 
 /* 반지, 팔찌 버튼 공통 속성 */
 .container>.contents:first-child { padding-top: 135px; text-align: center; padding-bottom: 113.5px; }
@@ -28,7 +29,8 @@
 
 #mobile-nav { display: none; }
 
-.site-footer>.container>.contents { padding: 0;}
+.site-footer>.container>.contents { padding: 0; } 
+.footer-text2, .footer-text3 { text-align: left; }
 
 @media screen and (max-device-width: 812px) {
     .container { padding-bottom: 0px; }
