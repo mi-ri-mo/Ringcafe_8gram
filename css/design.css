@@ -27,22 +27,22 @@
 #mobile-nav { display: none; }
 
 @media screen and (max-device-width: 812px) {
-    .container { padding-bottom: 137px; }
+    .container { padding-bottom: 0px; }
     #subBanner { height: 149px; margin-top: 40px; }
     #subBanner>.contents>.contents-box { padding-left: 23px; padding-top: 52px; }
     #subBanner>.contents>.contents-box>.contents-tit { color: black; font-size: 21px; }
 
     .container>.contents:first-child { padding-top: 58px; padding-bottom: 96px; }
-    .container>.contents>.selectBtn { width: 164.5px; height: 58px; font-size: 18px; text-align: center; } 
+    .container>.contents>.selectBtn { width: 164.5px; height: 58px; font-size: 18px; text-align: center; border-radius: 0px; } 
     .container>.contents>.contents-detail { margin-bottom: 2px; }
     .container>.contents>.contents-detail>span { font-size: 14px; }
     .container>.designView { width: 100%; }
     .container>.designView>ul>li { margin-bottom: 26px; padding: 7.5px; }
     .container>.designView>ul>li:last-child { margin-bottom: 26px; }
-    .container>.designView>ul>li>dl>dt>img { width: 150px; height: 150px; }
+    .container>.designView>ul>li>dl>dt>img { width: 157.5px; height: 157.5px; }
 
     /* nav */
     #mobile-nav { display: block; padding-top: 0px; padding-bottom: 0px; }
-    .navbar-light .navbar-toggler { float: right; padding-right: 0; }
+    .navbar-light .navbar-toggler { float: right; padding-right: 3px; }
     #web-nav { display: none; }
 }
