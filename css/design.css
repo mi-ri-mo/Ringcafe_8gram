@@ -20,7 +20,7 @@
 .container>.designView>.designList { text-align: center; margin: 0 auto; }
 .container>.designView>ul>li { display: inline-block; padding: 10px; margin-bottom: 45px; }
 .container>.designView>ul>li>dl>dt { padding-bottom: 10px; }
-.container>.designView>ul>li>dl>dd { margin-left: 5px; text-align: left; }
+.container>.designView>ul>li>dl>dd { margin-left: 0px; text-align: center; }
 .container>.designView>ul>li>dl>dd>span { font-size: 16px; }
 
 /* banner text */
