@@ -1,7 +1,7 @@
 
 #mainBanner {
     height: 100vh;
-    background-image: url("../img/main.jpg");
+    background-image: url("../img/main.png");
     /*background-color: #EBEBEB; /* 이미지 대체용(임시) */
     position: relative;
 }
@@ -13,14 +13,15 @@
     width: 113px; 
     height: 52px; 
     font-size: 16px; 
-    border: 1.5px solid black;
-    color: black;
+    border: 1.5px solid white;
+    color: white;
     background-color: rgba(0,0,0,0);
     font-weight: bold;
 }
 
 
 .order { background-color: #FAFAF8; height: 100vh; }
+
 
 /* .img-contents { overflow-x: scroll; } */
 
@@ -37,6 +38,7 @@
 .cell { margin-bottom: 100px;}
 
 .line { border: 0px; width: 341px; height: 50px; background-color: #D7D7D7; z-index: 0; position: absolute; left: 70%; transform:translateX(-50%); margin-top: -56px; }
+.img-contents>.con { margin-right: 270px; }
 
 #publicity>.contents>.contents-box>.publicity-text { text-align: center; padding-top: 235.7px; color: white; font-size: 38.4px; }
 
@@ -99,11 +101,13 @@
 
 
 /* Banner Text */
-#mainBanner>.contents>.contents-box>.contents-tit { color: black; font-weight: bold; }
+#mainBanner>.contents>.contents-box>.contents-tit { color: white; font-weight: bold; }
 
 .place { font-size: 18px;  }
 
 .subway {font-size: 14px; color: #acacac;}
+
+#intro { /*background-image: url("../img/index-img/text.png");*/ }
 
 
 @media screen and (max-device-width: 812px) {
