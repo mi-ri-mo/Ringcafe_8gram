@@ -28,11 +28,13 @@
 
 #footer { height: 297px; background-color: #272726;}
 
-.order-text { text-align: center; position: absolute; left: 70%; transform:translateX(-50%); padding-top: 100px; margin-top: -150px;}
+.order-text { text-align: center; position: absolute; left: 70%; transform:translateX(-50%); z-index: 1; padding-top: 100px; margin-top: -150px;}
 
 .product-name { margin-top: 10px;}
 
 .cell { margin-bottom: 100px;}
+
+.line { border: 0px; width: 341px; height: 50px; background-color: #D7D7D7; z-index: 0; position: absolute; left: 70%; transform:translateX(-50%); margin-top: -56px; }
 
 #publicity>.contents>.contents-box>.publicity-text { text-align: center; padding-top: 235.7px;}
 
@@ -62,6 +64,8 @@
 
 .contents-tit-mobile { display: none; color: white; }
 
+
+
 /* 순서도 시작 */
 .con { width:auto; margin-left: auto; margin-right: auto; }
 
@@ -82,9 +86,10 @@
 
 .list1 .row { margin-left:-10px; margin-right:-10px; }
 
-.row { top: 800px;}
 
 .img-box-hidden { visibility: hidden; }
+
+
 
 @media screen and (max-device-width: 812px) {
     #mainBanner {padding-left: 38px; padding-right: 38px; }
