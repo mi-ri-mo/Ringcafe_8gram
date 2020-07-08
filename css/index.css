@@ -95,7 +95,7 @@
 
 .fa-arrow-up { color: black;}
 
-.line-map { border: 0px; width: 163px; height: 35.9px; background-color: #D7D7D7; z-index: 0; position: absolute;  transform:translateX(534%); margin-top: 110px; }
+.line-map {  border: 0; width: 162.7px; height: 35.9px; background-color: #D7D7D7; z-index: 0; position: absolute;  margin-left: 45.7%; margin-top: 110px; }
 
 
 /* Banner Text */
@@ -148,7 +148,6 @@
 
 @media ( max-width:1920px ) { 
     .header { width : 1920px;} 
-    .line-map { border: 0px; width: 163px; height: 35.9px; background-color: #D7D7D7; z-index: 0; position: absolute;  transform:translateX(539%); margin-top: 110px; }
 }
 
 
