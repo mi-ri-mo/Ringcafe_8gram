@@ -17,7 +17,9 @@ function onChangeBtn(value) {
         $('#ring').css('color', 'black');
         $('#bracelet').css('background-color', '#5C5C5C');
         $('#bracelet').css('color', 'white');
-        onChangeDesign('bracelet');
+        alert("준비 중인 메뉴입니다.");
+        onChangeBtn('ring');
+        /*onChangeDesign('bracelet');*/
     }
 }
 
