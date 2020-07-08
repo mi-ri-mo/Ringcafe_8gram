@@ -14,7 +14,7 @@
 .innerContainer { width: 100%; background-color: #f7f7f7; margin-top: 104px; }
 .containerBox>.innerContainer>.contents { text-align: center; padding-top: 23px; padding-bottom: 35.7px; }
 .containerBox>.innerContainer>.contents>.contents-intro { display: inline-block; }
-.containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-ring { display: inline-block; width: 160px; height: 160px; background-image: url("../img/design-img/ring01.png"); background-size: 160px 160px; }
+.containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-ring { display: inline-block; width: 160px; height: 160px; background-color: #d6d6d6; /*background-image: url("../img/design-img/ring01.png"); background-size: 160px 160px; */}
 .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-bracelet { display: inline-block; width: 160px; height: 160px; background-color: #d6d6d6; /*background-img: url();*/ }
 .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-text-ring { font-size: 21px; margin-top: 30px; }
 .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-text-bracelet { font-size: 21px; margin-top: 30px; }
@@ -37,7 +37,7 @@
 .list-tel>dd>span:last-child { margin-left: 40px;}
 .list-location>dd>span { display: block; }
 .list-location>dd { margin-left: 135px; }
-.list-info>dd { margin-left: 135px; }
+.list-info>dd { margin-left: 135px; margin-bottom: 0px; }
 .list-tel>dd { margin-left: 135px; }
 
 .container>.contents>.contents-detail>hr { border: 0px; height: 1px; background-color: #D7D7D7; margin-top: 31.5px; margin-bottom: 31.5px; }
@@ -64,13 +64,18 @@
 
     .innerContainer { margin-top: 50px; }
     .innerContainer>.contents { background-color: white; }
+    .containerBox>.innerContainer>.contents { padding-bottom: 0px }
     .innerContainer>.contents>.contents-intro:nth-child(2)>.contents-intro-line { width: 330px; height: 1px; margin-left: 0; margin-right: 0; }
-    .innerContainer>.contents>.contents-intro:first-child { margin-bottom: 120px; }
-    .innerContainer>.contents>.contents-intro:last-child { margin-top: 120px; }
+    .innerContainer>.contents>.contents-intro:first-child { margin-bottom: 100px; }
+    .innerContainer>.contents>.contents-intro:last-child { margin-top: 100px; }
     .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-ring, .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-bracelet { width: 195px; height: 195px; }
     .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-text-ring, .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-text-bracelet { font-size: 16px; }
     .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-price-ring, .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-price-bracelet { font-size: 26px; margin-top: 11px; }
     .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-ring { background-size: 195px 195px; }
+    
+    .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-ring { display: inline-block; width: 160px; height: 160px; background-image: url("../img/design-img/ring01.png"); background-size: 160px 160px; background-color: none; }
+    .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-bracelet { display: inline-block; width: 160px; height: 160px; background-image: url("../img/design-img/ring02.png"); background-size: 160px 160px; background-color: none; }
+
     .contents-text { margin-top: 62px; }
 
     .contents-detail>dl { margin-left: 0; }
