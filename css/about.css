@@ -1,6 +1,6 @@
 /* mainBanner */
 #subBanner {
-    background-image: url("../img/main.jpg");
+    background-image: url("../img/submain-web.png");
 }
 
 /* containerBox */
@@ -14,8 +14,8 @@
 .innerContainer { width: 100%; background-color: #f7f7f7; margin-top: 104px; }
 .containerBox>.innerContainer>.contents { text-align: center; padding-top: 23px; padding-bottom: 35.7px; }
 .containerBox>.innerContainer>.contents>.contents-intro { display: inline-block; }
-.containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-ring { display: inline-block; width: 160px; height: 160px; background-color: #d6d6d6; /*background-image: url("../img/design-img/ring01.png"); background-size: 160px 160px; */}
-.containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-bracelet { display: inline-block; width: 160px; height: 160px; background-color: #d6d6d6; /*background-img: url();*/ }
+.containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-ring { display: inline-block; width: 160px; height: 160px; background-image: url("../img/about-img/ring.png"); background-size: 160px 160px; }
+.containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-bracelet { display: inline-block; width: 200px; height: 160px; background-image: url("../img/about-img/bracelet.png"); background-size: 200px 160px; }
 .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-text-ring { font-size: 21px; margin-top: 30px; }
 .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-text-bracelet { font-size: 21px; margin-top: 30px; }
 .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-price-ring { font-size: 30px; font-weight: bold; margin-top: 21px; }
@@ -57,7 +57,7 @@
     .line { display: none;}
     .text { font-size: 20px; }
 
-    #subBanner { height: 149px; margin-top: 40px; }
+    #subBanner { height: 149px; margin-top: 40px; background-image: url("../img/submain-mobile.png"); }
     #subBanner>.contents>.contents-box { padding-left: 23px; padding-top: 52px; }
     #subBanner>.contents>.contents-box>.contents-tit { color: black; font-size: 21px; }
     
@@ -75,8 +75,8 @@
     .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-price-ring, .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-price-bracelet { font-size: 26px; margin-top: 11px; }
     .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-ring { background-size: 195px 195px; }
     
-    .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-ring { display: inline-block; width: 160px; height: 160px; background-image: url("../img/design-img/ring01.png"); background-size: 160px 160px; background-color: none; }
-    .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-bracelet { display: inline-block; width: 160px; height: 160px; background-image: url("../img/design-img/ring02.png"); background-size: 160px 160px; background-color: none; }
+    .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-ring { display: inline-block; width: 160px; height: 160px; background-image: url("../img/about-img/ring.png"); background-size: 160px 160px; background-color: none; }
+    .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-bracelet { display: inline-block; width: 160px; height: 160px; background-image: url("../img/about-img/bracelet.png"); background-size: 160px 160px; background-color: none; }
 
     .contents-text { margin-top: 62px; }
 
