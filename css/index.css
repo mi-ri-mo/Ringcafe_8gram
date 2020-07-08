@@ -22,7 +22,7 @@
 
 /* .img-contents { overflow-x: scroll; } */
 
-#publicity { height: 539px; background-color: grey;}
+#publicity { height: 587px; /*background-color: grey;*/ background-image: url("../img/index-img/main_Banner.png"); }
 
 #map-setion { height: 100vh; background-color: #FAFAF8;}
 
@@ -36,7 +36,7 @@
 
 .line { border: 0px; width: 341px; height: 50px; background-color: #D7D7D7; z-index: 0; position: absolute; left: 70%; transform:translateX(-50%); margin-top: -56px; }
 
-#publicity>.contents>.contents-box>.publicity-text { text-align: center; padding-top: 235.7px;}
+#publicity>.contents>.contents-box>.publicity-text { text-align: center; padding-top: 235.7px; color: white; font-size: 38.4px; }
 
 .text { 
     text-align: center; 

@@ -30,7 +30,7 @@
 .contents-text { margin-top: 44px; text-align: center; font-size: 16px; }
 .contents-text>.detail-text { line-height: 35px; }
 
-.list-location, .list-info, .list-tel { margin-left: 200px; font-size: 16px; display: inline-block; width: 100%; }
+.list-location, .list-info, .list-tel { margin-left: 200px; font-size: 16px; display: inline-block; width: 100%; margin-bottom: 0; }
 .list-location>dt, .list-info>dt, .list-tel>dt { float:left; }
 
 .list-location>dd>span:first-child { margin-bottom: 17px; }
