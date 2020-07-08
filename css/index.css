@@ -117,6 +117,8 @@
 
     .order-text { text-align: center; font-size: 26px; }
 
+    .line-map { display: none; }
+
 }
 
 /* 순서도 */
