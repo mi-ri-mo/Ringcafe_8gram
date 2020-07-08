@@ -17,16 +17,14 @@ function onChangeBtn(value) {
         $('#ring').css('color', 'black');
         $('#bracelet').css('background-color', '#5C5C5C');
         $('#bracelet').css('color', 'white');
-        alert("준비 중인 메뉴입니다.");
-        onChangeBtn('ring');
-        /*onChangeDesign('bracelet');*/
+        onChangeDesign('bracelet');
     }
 }
 
 function onChangeDesign(value) {
     let ringImage = ['img/design-img/ring01.png', 'img/design-img/ring02.png', 'img/design-img/ring03.png', 'img/design-img/ring04.png', 'img/design-img/ring05.png', 'img/design-img/ring06.png', 'img/design-img/ring07.png', 'img/design-img/ring08.png', 'img/design-img/ring09.png'];
     let ringDetail = ['인기 반지 1위','인기 반지 2위','인기 반지 3위','인기 반지 4위','인기 반지 5위','인기 반지 6위','인기 반지 7위','인기 반지 8위','인기 반지 9위'];
-    let braceletImage = ['img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG'];
+    let braceletImage = ['img/design-img/bracelet01.png', 'img/design-img/bracelet02.png', 'img/design-img/bracelet03.png', 'img/design-img/bracelet04.png', 'img/design-img/bracelet05.png', 'img/design-img/bracelet06.png', 'img/design-img/bracelet07.png', 'img/design-img/bracelet08.png', 'img/design-img/bracelet09.png'];
     let braceletDetail = ['인기 팔찌 1위','인기 팔찌 2위','인기 팔찌 3위','인기 팔찌 4위','인기 팔찌 5위','인기 팔찌 6위','인기 팔찌 7위','인기 팔찌 8위','인기 팔찌 9위'];
     let image = [];
     let detail=[];
