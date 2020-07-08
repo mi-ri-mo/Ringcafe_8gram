@@ -1,8 +1,6 @@
 /* mainBanner */
 #subBanner {
-    /* background-image: url(''); */
-    background-color: #a9a9a9; 
-    /*background-image: url('../img/main.jpg');*/
+    background-image: url("../img/main.jpg");
 }
 
 #subBanner>.contents>.contents-box {}
