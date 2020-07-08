@@ -50,6 +50,8 @@
 /* banner text */
 #subBanner>.contents>.contents-box>.contents-tit { color: black; }
 
+.fab, .fas { color: white;}
+
 @media screen and (max-device-width: 812px) {
 
     .line { display: none;}
