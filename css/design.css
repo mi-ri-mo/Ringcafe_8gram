@@ -50,4 +50,15 @@
     .navbar-light .navbar-toggler { float: right; padding-right: 3px; }
     #web-nav { display: none; }
     .site-footer>.container>.contents { padding: 0;}
+
+    /* design footer 별개 수정 */
+
+    .company-number { margin-right: 80px; }
+
+    .report-number  { margin-right: 50px; }
+
+    .call-number { transform:translateX(-30%); }
+
+    .information { transform:translateX(-50%); }
+
 }
