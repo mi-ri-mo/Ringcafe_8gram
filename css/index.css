@@ -86,13 +86,15 @@
 
 .list1 .row { margin-left:-10px; margin-right:-10px; }
 
-.Myeongjo.text { text-align : center;  }
+.Myeongjo.text { text-align : center; z-index: 1; }
 
 .img-box-hidden { visibility: hidden; }
 
 .fab, .fas { color: white;}
 
 .fa-arrow-up { color: black;}
+
+.line-map { border: 0px; width: 162.7px; height: 35.9px; background-color: #D7D7D7; z-index: 0; position: absolute;  transform:translateX(535%); margin-top: 110px; }
 
 
 /* Banner Text */
