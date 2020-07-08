@@ -110,7 +110,7 @@
 
     .map-text { margin-left: -120px; margin-top: 40px; text-align: center;}
 
-    #map{ margin: 0 auto; transform:translateX(70%); transform:translateY(80%); height: 452px; width: 375px;}
+    #map{ margin: 0 auto; transform:translateX(70%); transform:translateY(60%); height: 452px; width: 375px;}
 
     .reserveBtn { border: 1.5px solid white; color: white; width: 140px;  }
 
