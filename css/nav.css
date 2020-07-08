@@ -7,3 +7,7 @@ nav>ul>li { display: inline-block; margin-right: 55px; font-size: 16px; }
 
 nav>ul>li:last-child { margin-right: 0; }
 nav>ul>li>a:hover { color: black; text-decoration: none; }
+
+@media screen and (max-device-width: 812px) {
+    .nav-item:last-child { padding-bottom: 30px; }
+}
