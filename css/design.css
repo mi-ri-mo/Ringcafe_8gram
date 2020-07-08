@@ -1,7 +1,8 @@
 /* mainBanner */
 #subBanner {
     /* background-image: url(''); */
-    background-color: #a9a9a9; /* 이미지 대체용(임시) */
+    background-color: #a9a9a9; 
+    /*background-image: url('../img/main.jpg');*/
 }
 
 #subBanner>.contents>.contents-box {}

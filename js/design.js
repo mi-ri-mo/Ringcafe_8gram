@@ -22,13 +22,13 @@ function onChangeBtn(value) {
 }
 
 function onChangeDesign(value) {
-    let ringImage = ['img/design-img/test.PNG', 'img/design-img/test.PNG', 'img/design-img/test.PNG', 'img/design-img/test.PNG', 'img/design-img/test.PNG', 'img/design-img/test.PNG', 'img/design-img/test.PNG', 'img/design-img/test.PNG', 'img/design-img/test.PNG'];
+    let ringImage = ['img/design-img/ring01.png', 'img/design-img/ring02.png', 'img/design-img/ring03.png', 'img/design-img/ring04.png', 'img/design-img/ring05.png', 'img/design-img/ring06.png', 'img/design-img/ring07.png', 'img/design-img/ring08.png', 'img/design-img/ring09.png'];
     let ringDetail = ['인기 반지 1위','인기 반지 2위','인기 반지 3위','인기 반지 4위','인기 반지 5위','인기 반지 6위','인기 반지 7위','인기 반지 8위','인기 반지 9위'];
     let braceletImage = ['img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG', 'img/design-img/test1.PNG'];
     let braceletDetail = ['인기 팔찌 1위','인기 팔찌 2위','인기 팔찌 3위','인기 팔찌 4위','인기 팔찌 5위','인기 팔찌 6위','인기 팔찌 7위','인기 팔찌 8위','인기 팔찌 9위'];
     let image = [];
     let detail=[];
-
+    
     if(value == 'ring') {
         image = [...ringImage];
         detail = [...ringDetail];
