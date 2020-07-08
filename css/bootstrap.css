@@ -559,6 +559,10 @@ pre code {
   }
 }
 
+@media screen and (max-device-width: 812px) {
+  .container { padding-left: 0; padding-right: 0; }
+}
+
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
