@@ -11,7 +11,7 @@
 
 /* 반지, 팔찌 버튼 공통 속성 */
 .container>.contents:first-child { padding-top: 135px; text-align: center; padding-bottom: 113.5px; }
-.container>.contents>.selectBtn { width: 290px; height: 75px; font-size: 24px; font-weight: bold; border: 0; }
+.container>.contents>.selectBtn { width: 290px; height: 75px; font-size: 24px; font-weight: bold; border: 0; border-radius: 0px; }
 
 /* 디자인 소개 */
 .container>.contents>.contents-detail { margin-bottom: 7.5px; padding-left: 10px; }
@@ -27,7 +27,7 @@
 #mobile-nav { display: none; }
 
 @media screen and (max-device-width: 812px) {
-    .container { padding-bottom: 137px; }
+    .container { padding-bottom: 0px; }
     #subBanner { height: 149px; margin-top: 40px; }
     #subBanner>.contents>.contents-box { padding-left: 23px; padding-top: 52px; }
     #subBanner>.contents>.contents-box>.contents-tit { color: black; font-size: 21px; }
@@ -39,10 +39,10 @@
     .container>.designView { width: 100%; }
     .container>.designView>ul>li { margin-bottom: 26px; padding: 7.5px; }
     .container>.designView>ul>li:last-child { margin-bottom: 26px; }
-    .container>.designView>ul>li>dl>dt>img { width: 150px; height: 150px; }
+    .container>.designView>ul>li>dl>dt>img { width: 157.5px; height: 157.5px; }
 
     /* nav */
     #mobile-nav { display: block; padding-top: 0px; padding-bottom: 0px; }
-    .navbar-light .navbar-toggler { float: right; padding-right: 0; }
+    .navbar-light .navbar-toggler { float: right; padding-right: 3px; }
     #web-nav { display: none; }
 }
