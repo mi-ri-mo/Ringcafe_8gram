@@ -28,6 +28,8 @@
 
 #mobile-nav { display: none; }
 
+.site-footer>.container>.contents { padding: 0;}
+
 @media screen and (max-device-width: 812px) {
     .container { padding-bottom: 0px; }
     #subBanner { height: 149px; margin-top: 40px; }
@@ -47,4 +49,5 @@
     #mobile-nav { display: block; padding-top: 0px; padding-bottom: 0px; }
     .navbar-light .navbar-toggler { float: right; padding-right: 3px; }
     #web-nav { display: none; }
+    .site-footer>.container>.contents { padding: 0;}
 }
