@@ -8,10 +8,10 @@
 .containerBox>.contents { padding-top: 131.8px; }
 
 .text { font-size: 30px; text-align: center; font-weight: bold; z-index: 1; position: absolute; left: 50%; transform:translateX(-50%); }
-.line { border: 0px; width: 162.8px; height: 35.88px; background-color: #D7D7D7; z-index: 0; position: absolute; left: 50%; transform:translateX(-50%); margin-top: 21.5px; }
+.line { border: 0px; width: 162.8px; height: 35.88px; background-color: #e8e5de; z-index: 0; position: absolute; left: 50%; transform:translateX(-50%); margin-top: 21.5px; }
 
 /* 가격 contents */
-.innerContainer { width: 100%; background-color: #f7f7f7; margin-top: 104px; }
+.innerContainer { width: 100%; background-color: #fafaf8; margin-top: 104px; }
 .containerBox>.innerContainer>.contents { text-align: center; padding-top: 23px; padding-bottom: 35.7px; }
 .containerBox>.innerContainer>.contents>.contents-intro { display: inline-block; }
 .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-ring { display: inline-block; width: 160px; height: 160px; background-image: url("../img/about-img/ring.png"); background-size: 160px 160px; }

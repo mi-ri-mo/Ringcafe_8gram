@@ -6,14 +6,14 @@ function onChangeBtn(value) {
     if(value == 'ring') {
         $('#ring').css('background-color', '#5C5C5C');
         $('#ring').css('color', 'white');
-        $('#bracelet').css('background-color', '#F1F1F1');
+        $('#bracelet').css('background-color', '#e8e5de');
         $('#bracelet').css('color', 'black');
         onChangeDesign('ring');
     }
 
     /* 팔찌 버튼 click */
     else if(value == 'bracelet') {
-        $('#ring').css('background-color', '#F1F1F1');
+        $('#ring').css('background-color', '#e8e5de');
         $('#ring').css('color', 'black');
         $('#bracelet').css('background-color', '#5C5C5C');
         $('#bracelet').css('color', 'white');
