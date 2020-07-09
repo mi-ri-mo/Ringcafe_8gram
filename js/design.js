@@ -4,7 +4,7 @@ function onChangeBtn(value) {
 
     /* 반지 버튼 click */
     if(value == 'ring') {
-        $('#ring').css('background-color', '#5C5C5C');
+        $('#ring').css('background-color', '#564e4b');
         $('#ring').css('color', 'white');
         $('#bracelet').css('background-color', '#e8e5de');
         $('#bracelet').css('color', 'black');
@@ -15,7 +15,7 @@ function onChangeBtn(value) {
     else if(value == 'bracelet') {
         $('#ring').css('background-color', '#e8e5de');
         $('#ring').css('color', 'black');
-        $('#bracelet').css('background-color', '#5C5C5C');
+        $('#bracelet').css('background-color', '#564e4b');
         $('#bracelet').css('color', 'white');
         onChangeDesign('bracelet');
     }

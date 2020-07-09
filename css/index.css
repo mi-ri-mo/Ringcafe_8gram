@@ -98,7 +98,7 @@
 
 .fa-arrow-up { color: black;}
 
-.line-map {  border: 0; width: 162.7px; height: 35.9px; background-color: #e8e5de; z-index: 0; position: absolute;  margin-left: 45%; margin-top: 90px; }
+/* .line-map {  border: 0; width: 162.7px; height: 35.9px; background-color: #e8e5de; z-index: 0; position: absolute;  margin-left: 45%; margin-top: 90px; } */
 
 #mobile-nav { display: none; }
 
@@ -141,7 +141,7 @@
 
     .order-text { text-align: center; font-size: 26px; }
 
-    .line-map { margin-left: 131px; z-index: 0; width: 114px; height: 26px; }
+    /* .line-map { margin-left: 131px; z-index: 0; width: 114px; height: 26px; } */
 
     .Myeongjo.text { text-align : center; z-index: 1; font-size: 21px; margin-left: 0px;}
 
