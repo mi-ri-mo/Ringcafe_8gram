@@ -176,6 +176,8 @@
     #publicity>.contents>.contents-box>.publicity-text-mobile { display: block; text-align: center; padding-top: 84px; color: white; font-size: 22px; line-height: 35px; }
     #publicity { height: 280px; background-image: url("../img/index-img/main_Banner-mobile.png"); margin-bottom: 30px; }
     #order { padding-bottom: 0px; }
+
+    .site-footer>.container>.contents>.row { width: 0;}
 }
 /* 순서도 */
 @media ( max-width:812px ) {
