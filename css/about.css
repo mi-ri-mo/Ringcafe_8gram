@@ -30,7 +30,7 @@
 .contents-text>.detail-text { line-height: 35px; }
 
 .list-location, .list-info, .list-tel { margin-left: 200px; font-size: 16px; display: inline-block; width: 100%; margin-bottom: 0; }
-.list-location>dt, .list-info>dt, .list-tel>dt { float:left; }
+.list-location>dt, .list-info>dt, .list-tel>dt { float:left; font-weight: normal; }
 
 .list-location>dd>span:first-child { margin-bottom: 17px; }
 .list-tel>dd>span:first-child { margin-right: 40px;}
@@ -79,11 +79,15 @@
     .containerBox>.innerContainer>.contents>.contents-intro>.contents-intro-img-bracelet { display: inline-block; width: 160px; height: 160px; background-image: url("../img/about-img/bracelet.png"); background-size: 160px 160px; background-color: none; }
 
     .contents-text { margin-top: 62px; }
-
+    .contents-detail { padding-left: 23px; padding-right: 23px; }
+    .container>.contents>.contents-detail { padding-top: 94px; }
     .contents-detail>dl { margin-left: 0; }
     .contents-detail>.list-tel>dd>span { display: block; margin-bottom: 12px; }
     .contents-detail>.list-tel>dd>.phone-number-2 { display: none; }
     .contents-detail>.list-tel>dd>.phone-number-3 { margin-left: 0px; }
+    .contents-detail>dl>dt { margin-left: 24px; }
+    .list-location>dd { margin-left: 113px; }
+
 
     #wrapper>.container { padding-bottom: 0px; }
     .container>.contents>#map { margin-top: 50px; }
