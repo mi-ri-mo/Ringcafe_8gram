@@ -37,7 +37,7 @@
     .container { padding-bottom: 0px; }
     #subBanner { height: 149px; margin-top: 40px; background-image: url("../img/submain-mobile.png"); }
     #subBanner>.contents>.contents-box { padding-left: 23px; padding-top: 52px; }
-    #subBanner>.contents>.contents-box>.contents-tit { color: black; font-size: 21px; }
+    #subBanner>.contents>.contents-box>.contents-tit { color: white; font-size: 21px; font-weight: normal; }
 
     .container>.contents:first-child { padding-top: 58px; padding-bottom: 96px; }
     .container>.contents>.selectBtn { width: 164.5px; height: 58px; font-size: 18px; text-align: center; } 
