@@ -25,9 +25,11 @@
 
 /* .img-contents { overflow-x: scroll; } */
 
-#publicity { height: 587px; /*background-color: grey;*/ background-image: url("../img/index-img/main_Banner.png"); }
+#publicity { height: 587px; /*background-color: grey;*/ background-image: url("../img/index-img/main_Banner.png"); margin-bottom: 150px; }
 
-#map-setion { height: 80vh; background-color: #FAFAF8;}
+#order { padding-bottom: 180px; }
+
+#map-setion { height: 80vh; /*background-color: #FAFAF8;*/}
 
 #footer { height: 297px; background-color: #272726;}
 
@@ -122,6 +124,7 @@
 .container>.contents>.photo-mobile { display: none; }
 
 .mobile { display: none; }
+.publicity-text-mobile { display: none; }
 
 @media screen and (max-device-width: 812px) {
     .container { padding-left: 0; padding-right: 0; }
@@ -170,6 +173,11 @@
     .container>.contents>.photo-mobile { width: 374px; height: 257.5px; margin-bottom: 15px; }
 
     #intro-pic>.contents { padding-bottom: 100px; }
+    .publicity-text { display: none; }
+    #publicity>.contents>.contents-box>.publicity-text-mobile { display: block; text-align: center; padding-top: 84px; color: white; font-size: 22px; line-height: 35px; }
+    #publicity { height: 280px; }
+    #publicity { margin-bottom: 30px; }
+    #order { padding-bottom: 0px; }
 }
 /* 순서도 */
 @media ( max-width:812px ) {
