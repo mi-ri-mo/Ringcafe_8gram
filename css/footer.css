@@ -12,7 +12,7 @@
 .li2{ position: relative; top: 100px; left: 450px; display: inline; list-style-type: none;}
 
 @media screen and (max-device-width: 812px) {
-    .site-footer { height: 337px; position: relative; bottom: -300px;} /*footer 위치 잡기*/
+    .site-footer { height: 337px; position: relative; bottom: -300px; } /*footer 위치 잡기*/
 
     /* footer text 잡기 */
     .footer-text1{ display: none;}

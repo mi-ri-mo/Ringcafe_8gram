@@ -207,6 +207,18 @@
 }
 
 
+@media ( min-width:2560px ) { 
+
+    #map-setion { height: 50vh; /*background-color: #FAFAF8;*/}
+    .order-text { font-size: 28px; text-align: center; position: absolute; left: 70%; transform:translateX(-80%); z-index: 1; padding-top: 100px; margin-top: -150px;}
+    .line { border: 0px; width: 341px; height: 50px; background-color: #e8e5de; z-index: 0; position: absolute; left: 70%; transform:translateX(-80%); margin-top: -56px; }
+    .img-contents>.con { margin-right: 518px; }
+    .map-text { margin: 0 auto; text-align: center; margin-left: 42.9%; margin-top: 100px; padding:0; display: inline-block;  transform:translateX(70%); transform:translateY(120%); }
+    .list1 .cell { width:376px; padding-left:40px; padding-right:-20px; margin-top:20px; }
+
+}
+
+
 .copy { text-align:center; }
 
 .top-bn-box > .img-box { margin-left:-50%; }
