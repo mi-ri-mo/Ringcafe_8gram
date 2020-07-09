@@ -174,8 +174,7 @@
     #intro-pic>.contents { padding-bottom: 100px; }
     .publicity-text { display: none; }
     #publicity>.contents>.contents-box>.publicity-text-mobile { display: block; text-align: center; padding-top: 84px; color: white; font-size: 22px; line-height: 35px; }
-    #publicity { height: 280px; }
-    #publicity { margin-bottom: 30px; }
+    #publicity { height: 280px; background-image: url("../img/index-img/main_Banner-mobile.png"); margin-bottom: 30px; }
     #order { padding-bottom: 0px; }
 }
 /* 순서도 */
