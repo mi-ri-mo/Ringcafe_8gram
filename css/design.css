@@ -20,6 +20,7 @@
 .container>.designView { width: 1210px; margin: 0; }
 .container>.designView>.designList { text-align: center; margin: 0 auto; }
 .container>.designView>ul>li { display: inline-block; padding: 10px; margin-bottom: 45px; }
+.container>.designView>ul>li:last-child { display: none; }
 .container>.designView>ul>li>dl>dt { padding-bottom: 10px; }
 .container>.designView>ul>li>dl>dd { margin-left: 0px; text-align: center; }
 .container>.designView>ul>li>dl>dd>span { font-size: 16px; }
@@ -44,7 +45,7 @@
     .container>.contents>.contents-detail>span { font-size: 14px; }
     .container>.designView { width: 100%; }
     .container>.designView>ul>li { margin-bottom: 26px; padding: 7.5px; }
-    .container>.designView>ul>li:last-child { margin-bottom: 26px; }
+    .container>.designView>ul>li:last-child { visibility: hidden; display: inline-block; width: 172.5px; }
     .container>.designView>ul>li>dl>dt>img { width: 157.5px; height: 157.5px; }
 
     /* nav */
