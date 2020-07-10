@@ -24,11 +24,11 @@
 
 /* .img-contents { overflow-x: scroll; } */
 
-#publicity { height: 587px; /*background-color: grey;*/ background-image: url("../img/index-img/main_Banner.png"); margin-bottom: 150px; }
+#publicity { height: 587px; /*background-color: grey;*/ background-image: url("../img/index-img/main_Banner.png"); margin-bottom: 100px; }
 
 #order { padding-bottom: 180px; }
 
-#map-setion { /*height: 80vh;*/ /*background-color: #FAFAF8;*/ padding-bottom: 50px; }
+#map-setion { /*height: 80vh;*/ /*background-color: #FAFAF8;*/ padding-bottom: 200px; }
 
 #footer { height: 297px; background-color: #272726;}
 
@@ -215,7 +215,7 @@
 
 @media ( min-width:2560px ) { 
 
-    #map-setion { height: 50vh; /*background-color: #FAFAF8;*/}
+    #map-setion { /*height: 50vh;*/ /*background-color: #FAFAF8;*/}
     .order-text { font-size: 28px; text-align: center; position: absolute; left: 70%; transform:translateX(-80%); z-index: 1; padding-top: 100px; margin-top: -150px;}
     .line { border: 0px; width: 341px; height: 50px; background-color: #e8e5de; z-index: 0; position: absolute; left: 70%; transform:translateX(-80%); margin-top: -56px; }
     .img-contents>.con { margin-right: 518px; }
