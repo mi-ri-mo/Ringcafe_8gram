@@ -64,4 +64,6 @@
 
     .information { transform:translateX(-30%); }
 
+    .site-footer>.container>.contents>.row { width: 0;}
+
 }

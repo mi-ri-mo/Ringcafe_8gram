@@ -97,5 +97,6 @@
     #mobile-text { display: block; }
     #web-nav, #web-text { display: none; }
 
+    .site-footer>.container>.contents>.row { width: 0;}
     
 }
