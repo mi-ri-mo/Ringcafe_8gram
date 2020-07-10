@@ -124,6 +124,7 @@
 
 .mobile { display: none; }
 .publicity-text-mobile { display: none; }
+.img-contents>.con { margin-left: 398px; }
 
 @media screen and (max-device-width: 812px) {
     .container { padding-left: 0; padding-right: 0; }
