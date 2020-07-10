@@ -28,7 +28,7 @@
 
 #order { padding-bottom: 180px; }
 
-#map-setion { height: 80vh; /*background-color: #FAFAF8;*/}
+#map-setion { /*height: 80vh;*/ /*background-color: #FAFAF8;*/ padding-bottom: 50px; }
 
 #footer { height: 297px; background-color: #272726;}
 
