@@ -153,7 +153,7 @@
 
 
     /* nav */
-    #mobile-nav { display: block; padding-top: 0px; padding-bottom: 0px; }
+    #mobile-nav { display: block; padding-top: 0px; padding-bottom: 0px; width: 375px; }
     .navbar-light .navbar-toggler { float: right; padding-right: 3px; }
     #web-nav { display: none; }
 
