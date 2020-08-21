@@ -1,0 +1,26 @@
+
+/* 여백 초기화 */
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, input, fieldset, legend, p, select, table, th, tr, td, textarea, button, form {margin: 0; padding: 0;} 
+
+/* 링크 초기화 */
+a {text-decoration: none; color: black; }
+a:visited { color: black; }
+
+/* 폰트 초기화 */
+* {
+    font-family: 'Noto Sans KR', sans-serif;    
+}
+
+.Myeongjo { font-family: 'Nanum Myeongjo', serif; }
+
+body, input, textarea, select, button, table{
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* 블릿 기호 초기화 */
+ul, li, ol, dl, menu {list-style-type: none;}
+
+/* 테두리 초기화 */
+button, img, fieldset {border: 0; outline: none;}
+input:focus, button:focus{ outline: none; }
