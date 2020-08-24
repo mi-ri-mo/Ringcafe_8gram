@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반지카페 8그램</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/design.css">
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!-- JavaScript-->
+    <script type="text/javascript" src="js/design.js"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link rel="icon" href="img/favicon.png">
+</head>
+<body onload="onChangeBtn('ring');">
+    <content>
+        <div id="part1">
+            <div class="container">
+                <div class="row">
+                    <input type="button" class="selectBtn Myeongjo" value="반지" id="ring" onclick="onChangeBtn('ring')">
+                    <input type="button" class="selectBtn Myeongjo" value="팔찌" id="bracelet" onclick="onChangeBtn('bracelet')">
+                </div>
+            </div>
+        </div>
+        <div id="part2">
+            <div class="container">
+                <p>*가장 인기 있는 디자인 순입니다.</p>
+                <div class="row">
+                    <div class="designView">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </content>
+</body>
+</html>
