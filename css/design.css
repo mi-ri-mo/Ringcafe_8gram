@@ -4,6 +4,7 @@
 .selectBtn { width: 290px; height: 75px; font-size: 24px; font-weight: bold; border: 0; border-radius: 0px; padding: 0; }
 
 /* 반지, 팔찌 이미지 */
+#part2 { padding-bottom: 250px; }
 p { font-size: 16px; }
 .designView { margin: 0; }
 .designView>.designList { text-align: center; margin: 0 auto; }
@@ -25,6 +26,7 @@ p { font-size: 16px; }
     #part1 { padding-top: 57px; padding-bottom: 90px; }
     .selectBtn { width: 50%; height: 58px; font-size: 18px; }
     /* 반지, 팔찌 이미지 */
+    #part2 { padding-bottom: 150px; }
     p { font-size: 14px; }
     .designView>ul>li:last-child { display: inline-block; visibility: hidden; }
     .designView>ul>li { width: 50%; height: auto; padding-left: 0px; padding-right: 0px; }
