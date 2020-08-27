@@ -13,7 +13,7 @@
 
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .linkBtn { width: 258px; height: 66px; }
+    .linkBtn { width: 255px; height: 70px; }
 }
 
 /* Tablet and Mobile*/
