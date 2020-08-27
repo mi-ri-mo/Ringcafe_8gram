@@ -15,8 +15,8 @@ p { font-size: 16px; }
 .designView>ul>li>dl>dd { margin-left: 0px; text-align: center; }
 .designView>ul>li>dl>dd>span { font-size: 16px; }
 
-/* Tablet and Mobile*/
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .designView>ul>li { width: 33.33%; height: auto; padding-left: 0px; padding-right: 0px; }
     .designView>ul>li>dl>dt { width: 100%; height: 100%; padding-bottom: 0px; }
 }
