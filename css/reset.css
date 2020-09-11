@@ -34,7 +34,7 @@ input:focus, button:focus{ outline: none; }
 }
 
 /* Tablet and Mobile */
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1023px) {
     .container {
         padding: 0px 23px 0px 23px;
     }
