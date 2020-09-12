@@ -1,3 +1,7 @@
+#part0 { background-image: url('../img/submain-web.png'); background-position: center center; background-repeat: no-repeat; }
+.text { padding-top: 144px; padding-bottom: 144px; color: white; padding-left: 55px; }
+.text>h1 { font-size: 40px; }
+
 /* 반지, 팔찌 버튼 */
 #part1 { padding-top: 134px; padding-bottom: 111.5px; }
 .row { display: flex; justify-content: center; align-items: center; }
@@ -22,6 +26,10 @@ p { font-size: 16px; }
 }
 /* Mobile */
 @media screen and (max-width: 767px) {
+    /* #part0 { background-image: url('../img/submain-mobile.png'); } */
+    .text { padding-top: 67px; padding-bottom: 35px; font-size: 20px; color: white; padding-left: 0px; }
+    .text>h1 { font-size: 20px; }
+
     /* 반지, 팔찌 버튼 */
     #part1 { padding-top: 57px; padding-bottom: 90px; }
     .selectBtn { width: 50%; height: 58px; font-size: 18px; }
