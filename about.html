@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/footer.css">
 
+    <!-- JavaScript-->
+    <script type="text/javascript" src="js/map.js"></script>
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
@@ -37,8 +40,8 @@
         <div id="part1">
             <div class="container">
                 <div class="tit">
-                <h2 class="tit-text Myeongjo">가격</h2>
-                <hr class="tit-line"/>
+                    <h2 class="tit-text Myeongjo">가격</h2>
+                    <hr class="tit-line"/>
                 </div>
             </div>
             <div class="bg">
@@ -69,8 +72,42 @@
                 </p>
             </div>
         </div>
+        <div id="part2">
+            <div class="container">
+                <div class="tit">
+                    <h2 class="tit-text Myeongjo">오시는 길</h2>
+                    <hr class="tit-line"/>
+                </div>
+                <div class="location">
+                    <dl class="list">
+                        <dt class="loc-tit">위치</dt>
+                        <dd class="loc-detail">
+                            <span>서울시 강남구 역삼동 813-16</span>
+                            <span>지하철 신논현역 4번 출구</span>
+                        </dd>
+                    </dl>
+                    <hr>
+                    <dl class="list">
+                        <dt class="loc-tit">이용시간</dt>
+                        <dd>
+                            <span>11:00 ~ 21:30 (연중무휴)</span>
+                        </dd>
+                    </dl>
+                    <hr>
+                    <dl class="list">
+                        <dt class="loc-tit">연락처</dt>
+                        <dd class="loc-tel">
+                            <span>02-508-8988</span>
+                            <span>|</span>
+                            <span">010-8904-0156</span>                        
+                        </dd>
+                    </dl>
+                </div>
+                <div id="map"></div>
+            </div>
+        </div>
     </content>
-    <!-- <footer>
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col-md-2">
@@ -89,6 +126,11 @@
                 </div>
             </div>
         </div>
-    </footer> -->
+    </footer>
+    <script src="js/map.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvs29ajFB8vgIjV0xN4e-hvD1ol24vd50&callback=initMap">
+    </script>
+    <script src="https://kit.fontawesome.com/2d323a629b.js" crossorigin="anonymous"></script> 
 </body>
 </html>

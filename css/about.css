@@ -24,6 +24,18 @@
 .detail, .detail-mobile { text-align: center; line-height: 36px; margin-top: 44px; font-size: 16px; }
 .detail-mobile { display: none; }
 
+/* 오시는 길 */
+#part2 { padding-top: 200px; padding-bottom: 185px; }
+.location { padding-top: 130px; }
+dl { padding-left: 16.5%; font-size: 16px; display: inline-block; width: 100%; margin-bottom: 0; margin-top: 10px; margin-bottom: 10px; }
+dt { float: left; }
+dd { margin-left: 135px; margin-bottom: 0px; }
+.loc-detail>span { display: block; }
+.loc-detail>span:first-child { margin-bottom: 12px; }
+.loc-tel>span:first-child, .loc-tel>span:nth-child(2) { margin-right: 15px; }
+
+#map { height: 494px; margin-top: 63px; }
+
 /* Mobile */
 @media screen and (max-width: 767px) {
     #part0 { background-size: auto 150px; }
@@ -48,4 +60,14 @@
 
     .detail { display: none; }
     .detail-mobile { display: block; }
+
+    /* 오시는 길 */
+    #part2 { padding-top: 185px; padding-bottom: 120px; }
+    .location { padding-top: 78px; }
+    dl { padding-left: 0; margin-top: 20px; margin-bottom: 20px; } /* 수정 */
+    dd { margin-left: 100px; }
+    .loc-tel>span:first-child { display: block; }
+    .loc-tel>span:nth-child(2) { display: none; }
+    .loc-tel>span:last-child { display: block; }
+    #map { margin-top: 50px; }
 }
