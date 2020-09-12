@@ -1,0 +1,51 @@
+/* subBanner */
+#part0 { background-image: url('../img/submain-web.png'); background-position: center center; background-repeat: no-repeat; }
+.text { padding-top: 144px; padding-bottom: 144px; color: white; padding-left: 55px; }
+.text>h1 { font-size: 40px; }
+
+/* 가격 */
+#part1 { padding-top: 135px }
+.tit { position: relative; }
+.tit-text { font-size: 30px; z-index: 1; position: absolute; left: 50%; transform: translate(-50%); }
+.tit-line { border: 0px; width: 163px; height: 36px; position: absolute; background-color: #e8e5de; z-index: 0; left: 50%; transform:translateX(-50%); margin-top: 12px; }
+
+.bg { background-color: #fafaf8; margin-top: 102px; }
+.bg>.container { display: flex; justify-content: center; padding-top: 50px; padding-bottom: 50px; }
+.price-line { width: 1px; height: 297px; background-color: #564E4B; margin: 0; }
+.price, .price-line { display: flex; align-items: center; justify-content: center; flex-direction: column; }
+.ring-img { background-image: url('../img/about-img/ring.png'); width: 180px; height: 180px; background-size: 180px 170px; }
+.bra-img { background-image: url('../img/about-img/bracelet.png'); width: 180px; height: 180px; background-size: 180px 180px; }
+.price-tit { font-size: 21px; }
+.price-num { font-size: 30px; margin-top: 18px; }
+
+.price:first-child, .price:last-child {flex: 3;}
+.price:nth-child(2) {flex: 1;}
+
+.detail, .detail-mobile { text-align: center; line-height: 36px; margin-top: 44px; font-size: 16px; }
+.detail-mobile { display: none; }
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    #part0 { background-size: auto 150px; }
+    .text { padding-top: 67px; padding-bottom: 35px; font-size: 20px; color: white; padding-left: 0px; }
+    .text>h1 { font-size: 20px; }
+
+    /* 가격 */
+    #part1 { padding-top: 70px; }
+    .tit-text { font-size: 20px; }
+    .tit-line { visibility: hidden; }
+
+    .bg { background-color: white; margin-top: 0px; }
+    .bg>.container { flex-direction: column; }
+
+    .price-line { width: 100%; height: 0.5px; background-color: rgb(237,237,237); }
+    .ring-img, .bra-img { width: 240px; height: 240px; background-size: 240px 230px; }
+    .price-tit { font-size: 16px; margin-top: 20px; }
+    .price-num { font-size: 26px; margin-top: 10px; }
+
+    .price:first-child { margin-bottom: 80px; }
+    .price:nth-child(2) { margin-bottom: 60px; }
+
+    .detail { display: none; }
+    .detail-mobile { display: block; }
+}
