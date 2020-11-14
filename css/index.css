@@ -1,4 +1,5 @@
 #part1>.container { height: 100vh; justify-content: center; display: flex; flex-flow: column; }
+.lettering { position: absolute; top: 0; left: 10vw; background-image: url('../img/index-img/lettering.png'); background-size: contain; background-repeat: no-repeat; width: 279px; height: 100vh; }
 
 /* Text */
 #part1 { width: 100%; height: 100vh; background-image: url('../img/index-img/background.png'); background-position: center center; background-repeat: no-repeat;}
@@ -19,6 +20,8 @@
 /* Tablet and Mobile*/
 @media screen and (max-width: 1023px) {
     #part1 { background-position: 50% 80%; }
+    .lettering { width: 219px; }
+    .lettering { left: 50%; transform: translate(-50%); }
     .text { margin-bottom: 120px; }
     .text>p:first-child { margin-bottom: 10px; }
     .col:first-child { margin-bottom: 55px; }
@@ -28,6 +31,7 @@
 }
 /* Mobile */
 @media screen and (max-width: 767px) {
+    .lettering { width: 173px; }
     .text>h1 { font-size: 43px; margin-bottom: 10px; }
     .text>p { font-size: 16px; }
     /* Button */
