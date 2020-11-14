@@ -33,6 +33,10 @@ input:focus, button:focus{ outline: none; }
     margin: 0px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* Tablet and Mobile */
 @media screen and (max-width: 1023px) {
     .container {

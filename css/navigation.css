@@ -1,0 +1,56 @@
+header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
+#web-nav {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.2s linear;
+}
+
+#web-nav ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#web-nav ul li {
+    font-size: 16px;
+}
+
+#web-nav ul li:not(:last-child) {
+    margin-right: 75px;
+}
+
+#web-nav ul li a {
+    color: #ffffff;
+}
+
+#web-nav ul li a:hover {
+    text-decoration: none;
+}
+
+.navbar {
+    display: none;
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    #web-nav {
+        display: none;
+    }
+
+    .navbar {
+        display: block;
+    }
+
+    .navbar-brand {
+        display: none;
+    }    
+    
+}

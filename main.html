@@ -24,16 +24,50 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.png">
     <link rel="icon" href="img/favicon.png">
+
+    <!-- Font-Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <nav id="web-nav">
+            <ul>
+                <li><a href="index.html" class="navli">반지카페 8그램</a></li>
+                <li><a href="design.html" class="navli">반지 팔찌 디자인</a></li>
+                <li><a href="about.html" class="navli">가격 및 오시는길</a></li>
+            </ul>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Navbar w/ text</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">반지카페 8그램<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">반지/팔찌 디자인</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">가격 및 오시는 길</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
     <content>
         <div id="part0">
             <div class="container">
                 <h1 class="Myeongjo">
-                    우리가 엮어서<br/>
+                    우리가 엮여서<br/>
                     인연이 된 곳 반지카페 8그램
                 </h1>
                 <button class="reserveBtn Myeongjo">예약하기</button>
+                <button class="down-btn" onClick="location.href='#part1'">
+                    <i class="fas fa-chevron-down"></i>
+                </button>
             </div>
         </div>
         <div id="part1">
@@ -160,5 +194,6 @@
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvs29ajFB8vgIjV0xN4e-hvD1ol24vd50&callback=initMap">
     </script>
+    <script src="js/nav.js"></script>
 </body>
 </html>

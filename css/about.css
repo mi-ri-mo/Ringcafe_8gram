@@ -1,6 +1,19 @@
+/* navigation - about, design */
+#web-nav {
+    background-color: #ffffff;
+}
+
+.navli {
+    color: #000000 !important;
+}
+
+.wrapper {
+    padding-top: 75px;
+}
+
 /* subBanner */
-#part0 { background-image: url('../img/submain-web.png'); background-position: center center; background-repeat: no-repeat; }
-.text { padding-top: 144px; padding-bottom: 144px; color: white; padding-left: 55px; }
+#part0 { display: flex; align-items: center; height: 400px; background-image: url('../img/submain-web.png'); background-position: center center; background-repeat: no-repeat; }
+.text { color: white; padding-left: 55px; }
 .text>h1 { font-size: 40px; }
 
 /* 가격 */
