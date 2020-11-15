@@ -47,6 +47,7 @@ dd { margin-left: 135px; margin-bottom: 0px; }
 .loc-detail>span:first-child { margin-bottom: 12px; }
 .loc-tel>span:first-child, .loc-tel>span:nth-child(2) { margin-right: 15px; }
 .tel:visited { text-decoration: none; color: black; }
+.tel:active { text-decoration: none; color: black; }
 
 #map { height: 494px; margin-top: 63px; }
 

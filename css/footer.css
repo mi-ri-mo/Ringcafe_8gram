@@ -39,8 +39,8 @@ footer a:visited {
 }
 
 @media screen and (max-width: 640px) {
-    i { 
-        display: block;
+    footer i { 
+        display: block !important;
         font-size: 20px; 
         position: absolute;
         left: 50%;
