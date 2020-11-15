@@ -19,7 +19,7 @@
 }
 
 #part0 h1 {
-    font-weight: 800;
+    font-weight: 700;
     color: white;
     padding-bottom: 100px;
     font-size: 53.7px;
@@ -31,7 +31,7 @@
     font-size: 16px; 
     border: 1.5px solid white;
     color: white;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(255, 255, 255, 0.3);
     font-weight: bold;
 }
 
@@ -107,14 +107,19 @@
 
 #part2 .box { padding-top: 160px; }
 
+#part2 .image {
+    display: flex;
+}
+
 #part2 .box .image div {
-    display: inline-flex;
     flex: 1;
     flex-direction: row;
-    width: 25%;
-    max-width: 280px;
     height: 530px;
     background-position: center center;
+}
+
+#part2 .box .image div:not(:last-child) {
+    margin-right: 20px;
 }
 
 .img1 { background-image: url('../img//main-img/intro01-web.png'); }
@@ -138,7 +143,7 @@
     display: inline-block;
     width: 60px;
     height: 0.2px;
-    background-color: #777777;
+    background-color: #747474;
     margin: 0;
 }
 
@@ -157,6 +162,7 @@
 #part3 h2 {
     text-align: right;
     font-weight: bold;
+    font-size: 30px;
 }
 
 #part3 .tit-line {
@@ -185,7 +191,7 @@
 }
 
 #part3 .step {
-    width: 30%;
+    flex: 1;
 }
 
 #part3 .step img {
@@ -251,7 +257,13 @@
 
 #map { height: 494px; margin-top: 63px; }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) and (min-width: 641px) {
+    #part0 h1 {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 640px) {
     .web {
         display: none;
     }
@@ -314,7 +326,7 @@
     #part2 h2 {
         font-size: 20px;
         text-align: left;
-        padding-left: 20px;
+        padding-left: 23px;
         line-height: 1.55;
     }
 
@@ -322,7 +334,7 @@
         width: 222px;
         height: 50px;
         top: 5.5px;
-        left: 20px;
+        left: 23px;
     }
 
     #part2 .box {
@@ -330,7 +342,7 @@
     }
 
     #part2 .detail {
-        padding-left: 20px;
+        padding-left: 23px;
         margin-bottom: 7px;
     }
 
@@ -338,15 +350,19 @@
         margin-right: 9px;
     }
 
-    #part2 .box .image div {
-        display: flex;
+    #part2 .image {
         flex-direction: column;
+    }
+
+    #part2 .box .image div {
         width: 100%;
         height: 257.5px;
         max-width: initial;
         background-position: center center;
         background-size: cover;
+        margin-right: 0;
         margin-bottom: 15.5px;
+        flex: none;
     }
 
     .img1 { background-image: url('../img//main-img/intro01-mobile.png'); }

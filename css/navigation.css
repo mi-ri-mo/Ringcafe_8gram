@@ -40,13 +40,21 @@ header {
 }
 
 /* Mobile */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 640px) {
+    header {
+        position: absolute;
+        top: 0;
+        right: 0;
+        transition: background-color 0.1s ease-out;
+    }
+
     #web-nav {
         display: none;
     }
 
     .navbar {
         display: block;
+        padding-bottom: 30px;
     }
 
     .navbar-brand {
@@ -60,11 +68,20 @@ header {
     .navbar-toggler {
         float: right;
         border-color: rgba(0,0,0,0) !important;
-        padding-top: 12px;
-        padding-right: 0;
+        padding: 0;
     }
 
     .navbar-collapse {
         padding-top: 50px;
+    }
+
+    .navbar {
+        padding-top: 16px;
+    }
+
+    .nav-link {
+        font-size: 16px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 }

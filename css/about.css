@@ -12,8 +12,8 @@
 }
 
 /* subBanner */
-#part0 { display: flex; align-items: center; height: 400px; background-image: url('../img/submain-web.png'); background-position: center center; background-repeat: no-repeat; }
-.text { color: white; padding-left: 55px; }
+#part0 { display: flex; align-items: center; background-image: url('../img/submain-web.png'); background-position: center center; background-repeat: no-repeat; }
+.text { color: white; padding-left: 55px; padding-top: 144px; padding-bottom: 144px; }
 .text>h1 { font-size: 40px; }
 
 /* 가격 */
@@ -49,8 +49,15 @@ dd { margin-left: 135px; margin-bottom: 0px; }
 
 #map { height: 494px; margin-top: 63px; }
 
+
+/* Tablet and Mobile*/
+@media screen and (max-width: 1023px) {
+    .wrapper { padding: 0; }
+    #part0 { height: initial; }
+}
+
 /* Mobile */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 640px) {    
     #part0 { background-size: auto 150px; }
     .text { padding-top: 67px; padding-bottom: 35px; font-size: 20px; color: white; padding-left: 0px; }
     .text>h1 { font-size: 20px; }
