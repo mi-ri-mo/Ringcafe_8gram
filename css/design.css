@@ -14,7 +14,7 @@
 /* subBanner */
 #part0 { background-image: url('../img/submain-web.png'); background-position: center center; background-repeat: no-repeat; }
 .text { padding-top: 144px; padding-bottom: 144px; color: white; padding-left: 55px; }
-.text>h1 { font-size: 40px; font-weight: 500; }
+.text>h1 { font-size: 40px; font-weight: 700; }
 
 /* 반지, 팔찌 버튼 */
 #part1 { padding-top: 134px; padding-bottom: 111.5px; }
