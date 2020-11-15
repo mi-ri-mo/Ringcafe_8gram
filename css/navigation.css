@@ -51,6 +51,20 @@ header {
 
     .navbar-brand {
         display: none;
-    }    
-    
+    }   
+
+    .bg-light {
+        background-color: rgba(0,0,0,0) !important;
+    }
+
+    .navbar-toggler {
+        float: right;
+        border-color: rgba(0,0,0,0) !important;
+        padding-top: 12px;
+        padding-right: 0;
+    }
+
+    .navbar-collapse {
+        padding-top: 50px;
+    }
 }

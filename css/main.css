@@ -1,3 +1,7 @@
+.mobile {
+    display: none;
+}
+
 #part0 { 
     width: 100%; 
     height: 100vh; 
@@ -167,6 +171,10 @@
     margin: 0;
 }
 
+#part3 .text {
+    font-size: 14px;
+}
+
 #part3 .box {
     display: flex;
     flex-direction: row;
@@ -242,3 +250,173 @@
 }
 
 #map { height: 494px; margin-top: 63px; }
+
+@media screen and (max-width: 767px) {
+    .web {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+
+    #part0 h1 {
+        font-size: 40px;
+        text-align: center;
+        line-height: 1.4;
+        font-weight: 600;
+        padding-bottom: 155px;
+    }
+
+    #part0 span {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    #part0 .box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reserveBtn {
+        width: 158px;
+        height: 53px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #part1 {
+        padding-top: 98px;
+        padding-bottom: 130px;
+    }
+
+    #part1 .container {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    #part1 h2 {
+        font-size: 20px;
+    }
+
+    #part1 .text {
+        font-size: 17px;
+        margin-bottom: 0;
+    }
+
+    #part2 {
+        padding-bottom: 100px;
+    }
+
+    #part2 .container {
+        padding: 0;
+    }
+
+    #part2 h2 {
+        font-size: 20px;
+        text-align: left;
+        padding-left: 20px;
+        line-height: 1.55;
+    }
+
+    #part2 .tit-line {
+        width: 222px;
+        height: 50px;
+        top: 5.5px;
+        left: 20px;
+    }
+
+    #part2 .box {
+        padding-top: 90px;
+    }
+
+    #part2 .detail {
+        padding-left: 20px;
+        margin-bottom: 7px;
+    }
+
+    #part2 .detail-text {
+        margin-right: 9px;
+    }
+
+    #part2 .box .image div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 257.5px;
+        max-width: initial;
+        background-position: center center;
+        background-size: cover;
+        margin-bottom: 15.5px;
+    }
+
+    .img1 { background-image: url('../img//main-img/intro01-mobile.png'); }
+    .img2 { background-image: url('../img//main-img/intro02-mobile.png'); }
+    .img3 { background-image: url('../img//main-img/intro03-mobile.png'); }
+    .img4 { background-image: url('../img//main-img/intro04-mobile.png'); }
+
+    #part3 {
+        padding-bottom: 100px;
+    }
+
+    #part3 h2 {
+        font-size: 20px;
+    }
+
+    #part3 .title {
+        padding-bottom: 90px;
+    }
+
+    #part3 .tit-line {
+        width: 222px;
+        height: 26px;
+        top: 9px;
+    }
+
+    #part3 .box {
+        flex-direction: column;
+    }
+
+    #part3 .step {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 25px;
+    }
+
+    #part4 {
+        margin-top: 110px;
+        height: 74.7vw;
+        background-image: url('../img/main-img/main_Banner-mobile.png');
+        background-size: cover;
+    }
+
+    #part4 h2 {
+        font-size: 20px;
+    }
+
+    #part5 {
+        padding-top: 110px;
+    }
+
+    #part5 .tit-text {
+        font-size: 20px;
+    }
+
+    #part5 .tit-line {
+        width: 114px;
+        height: 26px;
+        margin: 0;
+        top: 12px;
+    }
+
+    #part5 .address {
+        font-size: 14px;
+    }
+
+    #part5 .detail {
+        font-size: 12px;
+    }
+
+    #map {
+        height: 450px;
+    }
+}
