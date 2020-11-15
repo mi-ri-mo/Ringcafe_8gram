@@ -29,7 +29,11 @@ footer i {
     display: none !important;
 }
 
-footer span:visited {
+footer a {
+    color: white;
+}
+
+footer a:visited {
     color: white !important;
     text-decoration: none;
 }
