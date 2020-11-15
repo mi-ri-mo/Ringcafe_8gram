@@ -14,7 +14,7 @@
 /* subBanner */
 #part0 { display: flex; align-items: center; background-image: url('../img/submain-web.png'); background-position: center center; background-repeat: no-repeat; }
 .text { color: white; padding-left: 55px; padding-top: 144px; padding-bottom: 144px; }
-.text>h1 { font-size: 40px; }
+.text>h1 { font-size: 40px; font-weight: 500; }
 
 /* 가격 */
 #part1 { padding-top: 135px }
@@ -52,12 +52,12 @@ dd { margin-left: 135px; margin-bottom: 0px; }
 
 /* Tablet and Mobile*/
 @media screen and (max-width: 1023px) {
-    .wrapper { padding: 0; }
     #part0 { height: initial; }
 }
 
 /* Mobile */
-@media screen and (max-width: 640px) {    
+@media screen and (max-width: 640px) {
+    .wrapper { padding: 0; }    
     #part0 { background-size: auto 150px; }
     .text { padding-top: 67px; padding-bottom: 35px; font-size: 20px; color: white; padding-left: 0px; }
     .text>h1 { font-size: 20px; }

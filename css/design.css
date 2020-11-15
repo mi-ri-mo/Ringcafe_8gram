@@ -14,11 +14,11 @@
 /* subBanner */
 #part0 { background-image: url('../img/submain-web.png'); background-position: center center; background-repeat: no-repeat; }
 .text { padding-top: 144px; padding-bottom: 144px; color: white; padding-left: 55px; }
-.text>h1 { font-size: 40px; }
+.text>h1 { font-size: 40px; font-weight: 500; }
 
 /* 반지, 팔찌 버튼 */
 #part1 { padding-top: 134px; padding-bottom: 111.5px; }
-.row { display: flex; justify-content: center; align-items: center; }
+#part1 .row { display: flex; justify-content: center; align-items: center; }
 .selectBtn { width: 290px; height: 75px; font-size: 24px; font-weight: bold; border: 0; border-radius: 0px; padding: 0; }
 
 /* 반지, 팔찌 이미지 */
@@ -33,12 +33,6 @@ p { font-size: 16px; }
 .designView>ul>li>dl>dd { margin-left: 0px; text-align: center; }
 .designView>ul>li>dl>dd>span { font-size: 16px; }
 
-
-/* Tablet and Mobile*/
-@media screen and (max-width: 1023px) {
-    .wrapper { padding: 0; }
-}
-
 /* Tablet */
 @media screen and (min-width: 641px) and (max-width: 1199px) {
     .designView>ul>li { width: 33.33%; height: auto; padding-left: 0px; padding-right: 0px; }
@@ -46,6 +40,7 @@ p { font-size: 16px; }
 }
 /* Mobile */
 @media screen and (max-width: 640px) {
+    .wrapper { padding: 0; }
     #part0 { background-size: auto 150px; }
     .text { padding-top: 67px; padding-bottom: 35px; font-size: 20px; color: white; padding-left: 0px; }
     .text>h1 { font-size: 20px; }

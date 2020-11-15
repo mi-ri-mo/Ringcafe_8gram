@@ -297,7 +297,7 @@
     }
 
     #part1 {
-        padding-top: 98px;
+        padding-top: 110px;
         padding-bottom: 130px;
     }
 
@@ -307,6 +307,7 @@
     }
 
     #part1 h2 {
+        margin-top: 0;
         font-size: 20px;
     }
 
