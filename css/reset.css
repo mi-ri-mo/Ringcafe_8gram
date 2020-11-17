@@ -33,15 +33,16 @@ input:focus, button:focus{ outline: none; }
     margin: 0px;
 }
 
-html {
-    scroll-behavior: smooth;
-    height: -webkit-fill-available;
-}
-
 body {
+    display: flex; 
+    flex-direction: column;
+    margin: 0;
     min-height: 100vh;
-    min-height: -webkit-fill-available;
   }
+
+content {
+    flex: 1;
+}
 
 /* Tablet and Mobile */
 @media screen and (max-width: 1023px) {
